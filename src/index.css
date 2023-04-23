@@ -10,19 +10,20 @@ html {
   border: 0px;
   background-color: transparent;
   cursor: pointer;
-  
 }
-.totop a {color: var(--clr-grey-3);}
+.totop a {
+  color: var(--clr-grey-3);
+}
 .totop a:hover {
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
 
-.hero h3{
-  color:var(--clr-primary-10);
+.hero h3 {
+  color: var(--clr-primary-10);
 }
 
-.hero{
+.hero {
   height: 500px;
   background-image: url("./assets/IMG_3327.png");
   background-position: center; /* Center the image */
@@ -34,7 +35,7 @@ html {
   display: grid;
 }
 
-.about img{
+.about img {
   height: 15rem;
   border-radius: 50%;
   margin: 0.5rem;
@@ -110,6 +111,9 @@ body {
     background-color: #f8f9fa;
   }
 } */
+.nav-link:hover {
+  cursor: pointer;
+}
 
 @media (max-width: 768px) {
   .navbar-links {
@@ -124,48 +128,73 @@ body {
   .navbar-brand {
     margin-right: 20px;
   }
+  .navbar-link.show {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .navbar-link:hover {
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 769px) {
   .navbar-links {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: max-height 0.3s ease-out;
+    max-height: 0;
   }
   .navbar-toggle {
     display: none;
   }
+  .navbar-link {
+    margin: 10px;
+  }
+  .navbar-link:hover {
+    cursor: pointer;
+  }
 }
 
 body {
-  background-color: #D6EAF8; /* light blue */
-  color: #34495E; /* dark blue */
+  background-color: #d6eaf8; /* light blue */
+  color: #34495e; /* dark blue */
 }
-h1, h2, h3, h4, h5, h6 {
-  color: #1ABC9C; /* greenish-blue */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1abc9c; /* greenish-blue */
 }
 a {
-  color: #3498DB; /* bright blue */
+  color: #3498db; /* bright blue */
 }
 blockquote {
-  background-color: #EAF2F8; /* very light blue */
-  border-left: 5px solid #1ABC9C; /* greenish-blue */
-  color: #34495E; /* dark blue */
+  background-color: #eaf2f8; /* very light blue */
+  border-left: 5px solid #1abc9c; /* greenish-blue */
+  color: #34495e; /* dark blue */
 }
 code {
-  background-color: #EAF2F8; /* very light blue */
-  color: #2C3E50; /* dark gray-blue */
+  background-color: #eaf2f8; /* very light blue */
+  color: #2c3e50; /* dark gray-blue */
 }
 pre {
-  background-color: #EAF2F8; /* very light blue */
-  border: 1px solid #1ABC9C; /* greenish-blue */
-  color: #2C3E50; /* dark gray-blue */
+  background-color: #eaf2f8; /* very light blue */
+  border: 1px solid #1abc9c; /* greenish-blue */
+  color: #2c3e50; /* dark gray-blue */
 }
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background-color: #1ABC9C; /* greenish-blue */
+  background-color: #1abc9c; /* greenish-blue */
   border: none;
-  color: #FFFFFF; /* white */
+  color: #ffffff; /* white */
   padding: 10px 20px;
   text-transform: uppercase;
 }
@@ -173,5 +202,5 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  background-color: #148F77; /* darker greenish-blue */
+  background-color: #148f77; /* darker greenish-blue */
 }

@@ -1,3 +1,5 @@
+import { Element } from "react-scroll";
+
 const Footer = () => {
   return (
     <section className="section footer" id="footer">

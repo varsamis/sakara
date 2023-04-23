@@ -8,23 +8,18 @@ import PriceList from "./components/PriceList";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ToTop from "./components/ToTop";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   // const [count, setCount] = useState(0);
 
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/qualification" element={<Qualification />} />
-          <Route path="/pricelist" element={<PriceList />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Hero />
+      <About />
+      <Qualification />
+      <PriceList />
+      <Contact />
       <ToTop />
       <Footer />
     </>

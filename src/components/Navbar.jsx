@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { links } from "../data";
-import { Link } from "react-router-dom";
+import { Link, animateScroll } from "react-scroll";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -9,10 +9,8 @@ const Navbar = () => {
     setShowNav(!showNav);
   }
 
-  const handleLinkClick = (event, url) => {
-    event.preventDefault();
-    console.log(url);
-    window.history.pushState(null, "", `#${url}`);
+  const handleScrollToTop = () => {
+    animateScroll.scrollToTop();
   };
 
   return (
@@ -23,7 +21,17 @@ const Navbar = () => {
       </button>
       <div className={`navbar-links ${showNav ? "show" : ""}`}>
         {links.map((link) => (
-          <Link key={link.id} className="nav-link" to={`/${link.url}`}>
+          <Link
+            key={link.id}
+            className={`navbar-link ${showNav ? "show" : ""}`}
+            activeClass="active"
+            to={link.url}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={toggleNav}
+          >
             {link.text}
           </Link>
         ))}

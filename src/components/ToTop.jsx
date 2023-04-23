@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { HiChevronDoubleUp } from "react-icons/hi";
+import { animateScroll } from "react-scroll";
 
 const ToTop = () => {
   const [showBackToTop, setShowBackTotop] = useState(false);
@@ -19,12 +20,16 @@ const ToTop = () => {
     window.history.pushState(null, "", url);
   };
 
+  const handleScrollToTop = () => {
+    animateScroll.scrollToTop();
+  };
+
   console.log(window.scrollY);
 
   return (
     <div>
       {showBackToTop && (
-        <button className="totop" onClick={scrollToTop}>
+        <button className="totop" onClick={handleScrollToTop}>
           <HiChevronDoubleUp />
         </button>
       )}
