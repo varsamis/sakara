@@ -8,12 +8,14 @@ import PriceList from "./components/PriceList";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ToTop from "./components/ToTop";
+import LanguageSwitch from "./components/LanguageSwitch";
 
 function App() {
   // const [count, setCount] = useState(0);
 
   return (
     <>
+      <LanguageSwitch />
       <Navbar />
       <Hero />
       <About />

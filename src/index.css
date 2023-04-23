@@ -46,75 +46,8 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 }
-/* .navbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f8f9fa;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-.navbar-brand {
-  font-size: 1.5em;
-  font-weight: bold;
-  text-decoration: none;
-}
-.navbar-nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.nav-item {
-  margin: 0 10px;
-}
-.nav-link {
-  color: #343a40;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.2em;
-  transition: color 0.3s ease;
-}
-.nav-link:hover {
-  color: #007bff;
-}
-.container-fluid {
-  max-width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-}
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-  }
-  .navbar-nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .nav-item {
-    margin: 10px 0;
-  }
-  .collapse {
-    display: none;
-  }
-  .collapsed {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    padding: 10px;
-    background-color: #f8f9fa;
-  }
-} */
-.nav-link:hover {
-  cursor: pointer;
-}
 
+/* Small Navbar */
 @media (max-width: 768px) {
   .navbar-links {
     display: none;
@@ -140,13 +73,14 @@ body {
   }
 }
 
+/* Normal Navbar */
 @media (min-width: 769px) {
   .navbar-links {
     display: flex;
     justify-content: center;
     align-items: center;
     transition: max-height 0.3s ease-out;
-    max-height: 0;
+    max-height: 3rem;
   }
   .navbar-toggle {
     display: none;
@@ -202,5 +136,20 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  background-color: #148f77; /* darker greenish-blue */
+  color: #148f77; /* darker greenish-blue */
+}
+
+.select-lang {
+  position: relative;
+  display: flex;
+  float: right;
+  margin: 1rem;
+}
+
+.select-lang img {
+  height: 2rem;
+}
+
+.select-lang:hover {
+  cursor: pointer;
 }
