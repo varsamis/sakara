@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -9,16 +8,16 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ToTop from "./components/ToTop";
 import LanguageSwitch from "./components/LanguageSwitch";
+import Kranio from "./components/Kranio";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <LanguageSwitch />
       <Navbar />
       <Hero />
       <About />
+      <Kranio />
       <Qualification />
       <PriceList />
       <Contact />

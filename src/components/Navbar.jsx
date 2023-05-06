@@ -1,17 +1,15 @@
 import { useState } from "react";
-import { links } from "../data";
+import { texts } from "../data";
 import { Link, animateScroll } from "react-scroll";
+import { useGlobalContext } from "../context";
 
 const Navbar = () => {
+  const { selectedLanguage } = useGlobalContext();
   const [showNav, setShowNav] = useState(false);
 
   function toggleNav() {
     setShowNav(!showNav);
   }
-
-  const handleScrollToTop = () => {
-    animateScroll.scrollToTop();
-  };
 
   return (
     <nav className="navbar">
@@ -20,7 +18,7 @@ const Navbar = () => {
         <i className="fa fa-bars"></i>
       </button>
       <div className={`navbar-links ${showNav ? "show" : ""}`}>
-        {links.map((link) => (
+        {texts[selectedLanguage].links.map((link) => (
           <Link
             key={link.id}
             className={`navbar-link ${showNav ? "show" : ""}`}

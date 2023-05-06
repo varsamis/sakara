@@ -1,9 +1,10 @@
 import { useState } from "react";
 import englishFlag from "../assets/UK.svg";
 import czechFlag from "../assets/CZ.svg";
+import { useGlobalContext } from "../context";
 
 const LanguageSwitch = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState("cz");
+  const { selectedLanguage, setSelectedLanguage } = useGlobalContext();
 
   const handleLanguageChange = (event) => {
     setSelectedLanguage(event.target.id === "en" ? "en" : "cz");

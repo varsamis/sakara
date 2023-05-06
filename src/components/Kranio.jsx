@@ -3,14 +3,13 @@ import { Element } from "react-scroll";
 import { texts } from "../data";
 import { useGlobalContext } from "../context";
 
-const About = () => {
+const Kranio = () => {
   const { selectedLanguage } = useGlobalContext();
   return (
-    <Element name="about">
-      <section className="section about" id="about">
-        <h3>{texts[selectedLanguage].h_about}</h3>
-        <img className="grid-item" src={img1} alt="" />
-        {texts[selectedLanguage].p_about.map((p, i) => (
+    <Element name="kranio">
+      <section className="section kranio" id="kranio">
+        <h3>{texts[selectedLanguage].h_kranio}</h3>
+        {texts[selectedLanguage].p_kranio.map((p, i) => (
           <article key={i}>
             <p key={i}>{p}</p>
           </article>
@@ -19,4 +18,4 @@ const About = () => {
     </Element>
   );
 };
-export default About;
+export default Kranio;

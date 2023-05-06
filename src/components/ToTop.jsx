@@ -15,16 +15,9 @@ const ToTop = () => {
     }
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0 });
-    window.history.pushState(null, "", url);
-  };
-
   const handleScrollToTop = () => {
     animateScroll.scrollToTop();
   };
-
-  console.log(window.scrollY);
 
   return (
     <div>
