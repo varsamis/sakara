@@ -14,6 +14,18 @@ const Kranio = () => {
             <p key={i}>{p}</p>
           </article>
         ))}
+        <div className="cranio-ul">
+          {texts[selectedLanguage].ul_kranio.map((list, i) => (
+            <div key={i}>
+              <h4 key={i}>{list.title}</h4>
+              <ul>
+                {list.items.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </section>
     </Element>
   );

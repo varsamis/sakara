@@ -84,7 +84,7 @@ body {
 @media (min-width: 769px) {
   .navbar-links {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     transition: max-height 0.3s ease-out;
     max-height: 3rem;
@@ -147,7 +147,6 @@ input[type="button"]:hover {
   position: relative;
   display: flex;
   float: right;
-  margin: 1rem;
 }
 
 .select-lang img {
@@ -156,4 +155,35 @@ input[type="button"]:hover {
 
 .select-lang:hover {
   cursor: pointer;
+}
+
+.section {
+  min-height: 500px;
+}
+
+.cranio-ul {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("assets/IMG_3327.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }

@@ -13,7 +13,6 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">Sabrina Karavarsami</div>
       <button className="navbar-toggle" onClick={toggleNav}>
         <i className="fa fa-bars"></i>
       </button>
