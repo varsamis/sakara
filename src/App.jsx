@@ -1,6 +1,5 @@
-import { useState } from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import About from "./components/About";
 import Qualification from "./components/Qualification";
 import PriceList from "./components/PriceList";
@@ -15,7 +14,7 @@ function App() {
     <>
       <LanguageSwitch />
       <Navbar />
-      <Hero />
+      <Home />
       <About />
       <Kranio />
       <Qualification />
