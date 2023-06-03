@@ -1,4 +1,9 @@
 export const texts = {
+  common: {
+    address: "Sládkova 262/7, 170 00 Prague 7 - Bubeneč (v těsné blízkosti Letenského nám.)",
+    telephone: "+420 775 232 633",
+    email: "info@sakara.cz",
+  },
   en: {
     h1: "Site Under Construction",
     h_about: "About",
@@ -84,7 +89,7 @@ export const texts = {
     },
     other_qualification: [
       { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
-      { title: "Seminář: Co nám tělo říká a jak - Ivan Verný", text: "" },
+      { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
       { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
       {
         title:
@@ -196,7 +201,7 @@ export const texts = {
     },
     other_qualification: [
       { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
-      { title: "Seminář: Co nám tělo říká a jak - Ivan Verný", text: "" },
+      { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
       { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
       {
         title:

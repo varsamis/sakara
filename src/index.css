@@ -46,6 +46,22 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
+  grid-template-rows: 50px 50px 50px 50px;
+}
+
+.contact iframe {
+  grid-column-start: 1;
+  grid-row-end: 1 5;
+}
+.contact label {
+  grid-column-start: 2;
+}
+.contact p {
+  grid-column-start: 3;
+}
 
 /* Common Navbar */
 .navbar-link:hover {
