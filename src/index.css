@@ -48,19 +48,17 @@ body {
 }
 .contact {
   display: grid;
-  grid-template-columns: 1fr 50px 1fr;
+  padding: 5px;
+  grid-template-columns: 25% 75%;
   grid-template-rows: 50px 50px 50px 50px;
 }
 
 .contact iframe {
   grid-column-start: 1;
-  grid-row-end: 1 5;
 }
-.contact label {
-  grid-column-start: 2;
-}
+
 .contact p {
-  grid-column-start: 3;
+  grid-column-start: 2;
 }
 
 /* Common Navbar */

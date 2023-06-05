@@ -7,12 +7,10 @@ const Contact = () => {
       <section className="section contact" id="contact">
         <h3>Contact</h3>
         <iframe src="https://en.frame.mapy.cz/s/nuleluvome" width="400" height="280" frameborder="0"></iframe>
-        <label>Ul.</label>
-        <p>{texts.common.address}</p>
-        <label>T.</label>
-        <p>{texts.common.telephone}</p>
-        <label>E.</label>
-        <p>{texts.common.email}</p>
+        <p>Ul. {texts.common.address}</p>
+        <p>T. {texts.common.telephone}</p>
+
+        <p>E. {texts.common.email}</p>
       </section>
     </Element>
   );
