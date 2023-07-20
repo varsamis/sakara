@@ -180,9 +180,7 @@ input[type="button"]:hover {
 }
 
 .select-lang {
-  position: relative;
-  display: flex;
-  float: right;
+  display: block;
 }
 
 .select-lang img {

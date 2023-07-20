@@ -12,7 +12,6 @@ import Kranio from "./components/Kranio";
 function App() {
   return (
     <>
-      <LanguageSwitch />
       <Navbar />
       <Home />
       <About />

@@ -62,43 +62,49 @@ export const texts = {
       description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
       items: [
         {
+          key: 1,
           title: "ošetření příčných struktur",
           text: "(historie a principy kraniosakrální osteopatie, anatomie a fyziologie kraniosakrálního systému, etika přístupu ke klientovi, základy psychohygieny, teorie a praxe palpace kraniosakrálního rytmu, anatomie a ošetření příčných struktur, dekomprese kosti křížové, teorie a praxe práce se spinální durou mater, útlum kraniosakrálního systému CV4)",
         },
         {
+          key: 2,
           title: "neurocranium",
           text: "(prohloubení dovedností práce s kraniosakrálním rytmem, anatomie a fyziologie kraniosakrálního rytmu na lebce, teorie a praxe dekomprese jednotlivých lebečních kostí: frontální, parietální, SSB, temporální, temporomandibulární kloub)",
         },
         {
+          key: 3,
           title: "SSB + membránový systém",
           text: "(anatomie a fyziologie kraniálního rytmu na SSB, teorie a praxe vyšetření a ošetření 11 lézí SSB, anatomie a fyziologie kraniálního rytmu na membránovém systému, palpace a sledování rytmu na membránovém systému, ošetření membránového systému)",
         },
         {
+          key: 4,
           title: "viscerocranium, energetický přístup ",
           text: "(anatomie a fyziologie kraniálního rytmu na horním patře a obličejové části, vyšetření a ošetření komplexu sphenoid-maxilla-vomer-palatinum, ošetření obličejové části – zygomaticum, vyšetření a ošetření zubů, mentální detoxikace, detoxikace organismu, práce s energií - V spred)",
         },
         {
+          key: 5,
           title: "drenáž žilních splavů, komorový systém, EV 4",
           text: "(anatomie žilních splavů, fyziologie žilních splavů, symptomy chorob, anatomie mozkových komor, fyziologie mozkových komor)",
         },
         {
+          key: 6,
           title: "tělo a emoce",
           text: "(vymezení působnosti podpůrného dialogu, etika přístupu v interakci s klientem, základy teorie psychoterapeutických přístupů, praktická cvičení, práce se zdroji, vtělení zdrojů, pociťovaný smysl, hranice a jejich rozpoznání, verbální a neverbální komunikace, stres a trauma, jak vzniká, jak ho poznat a jak předejít retraumatizaci, somatoemocionální uvolnění – teorie – praktická cvičení, cvičení ve vedení praxe s verbální podporou)",
         },
       ],
     },
     other_qualification: [
-      { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
-      { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
-      { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
-      {
+      {key:1, title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
+      {key:2, title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
+      {key:3, title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
+      {key:4,
         title:
           "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
         text: "",
       },
-      { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
-      { title: "Reiki - Boris Tichanovský", text: "" },
-      { title: "Reiki - Iva Kukačková", text: "" },
+      {key:5, title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
+      {key:6, title: "Reiki - Boris Tichanovský", text: "" },
+      {key:7, title: "Reiki - Iva Kukačková", text: "" },
     ],
     name: "Name:",
     namePh: "Your name",
@@ -174,43 +180,49 @@ export const texts = {
       description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
       items: [
         {
+          key: 1,
           title: "ošetření příčných struktur",
           text: "(historie a principy kraniosakrální osteopatie, anatomie a fyziologie kraniosakrálního systému, etika přístupu ke klientovi, základy psychohygieny, teorie a praxe palpace kraniosakrálního rytmu, anatomie a ošetření příčných struktur, dekomprese kosti křížové, teorie a praxe práce se spinální durou mater, útlum kraniosakrálního systému CV4)",
         },
         {
+          key: 2,
           title: "neurocranium",
           text: "(prohloubení dovedností práce s kraniosakrálním rytmem, anatomie a fyziologie kraniosakrálního rytmu na lebce, teorie a praxe dekomprese jednotlivých lebečních kostí: frontální, parietální, SSB, temporální, temporomandibulární kloub)",
         },
         {
+          key: 3,
           title: "SSB + membránový systém",
           text: "(anatomie a fyziologie kraniálního rytmu na SSB, teorie a praxe vyšetření a ošetření 11 lézí SSB, anatomie a fyziologie kraniálního rytmu na membránovém systému, palpace a sledování rytmu na membránovém systému, ošetření membránového systému)",
         },
         {
+          key: 4,
           title: "viscerocranium, energetický přístup ",
           text: "(anatomie a fyziologie kraniálního rytmu na horním patře a obličejové části, vyšetření a ošetření komplexu sphenoid-maxilla-vomer-palatinum, ošetření obličejové části – zygomaticum, vyšetření a ošetření zubů, mentální detoxikace, detoxikace organismu, práce s energií - V spred)",
         },
         {
+          key: 5,
           title: "drenáž žilních splavů, komorový systém, EV 4",
           text: "(anatomie žilních splavů, fyziologie žilních splavů, symptomy chorob, anatomie mozkových komor, fyziologie mozkových komor)",
         },
         {
+          key: 6,
           title: "tělo a emoce",
           text: "(vymezení působnosti podpůrného dialogu, etika přístupu v interakci s klientem, základy teorie psychoterapeutických přístupů, praktická cvičení, práce se zdroji, vtělení zdrojů, pociťovaný smysl, hranice a jejich rozpoznání, verbální a neverbální komunikace, stres a trauma, jak vzniká, jak ho poznat a jak předejít retraumatizaci, somatoemocionální uvolnění – teorie – praktická cvičení, cvičení ve vedení praxe s verbální podporou)",
         },
       ],
     },
     other_qualification: [
-      { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
-      { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
-      { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
-      {
+      {key:1, title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
+      {key:2, title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
+      {key:3, title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
+      {key:4,
         title:
           "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
         text: "",
       },
-      { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
-      { title: "Reiki - Boris Tichanovský", text: "" },
-      { title: "Reiki - Iva Kukačková", text: "" },
+      {key:5, title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
+      {key:6, title: "Reiki - Boris Tichanovský", text: "" },
+      {key:7, title: "Reiki - Iva Kukačková", text: "" },
     ],
 
     name: "Jméno:",
