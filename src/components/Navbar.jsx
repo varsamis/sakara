@@ -31,16 +31,16 @@ const Navbar = () => {
     };
 
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{textAlign: 'center'}}>
+        <Box sx={{textAlign: 'center'}}>
             <Typography variant="h6" sx={{my: 2}}>
                 MUI
             </Typography>
             <Divider/>
             <List>
-                {navItems.map((item) => (
-                    <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{textAlign: 'center'}}>
-                            <ListItemText primary={item}/>
+                {texts[selectedLanguage].links.map((item) => (
+                    <ListItem component={Link} to={item.url}  key={item.id} disablePadding>
+                        <ListItemButton onClick={handleDrawerToggle} sx={{textAlign: 'center'}}>
+                            <ListItemText primary={item.text}/>
                         </ListItemButton>
                     </ListItem>
                 ))}
@@ -74,11 +74,16 @@ const Navbar = () => {
                     >
                         MUI
                     </Typography>
-                    <Box sx={{display: {xs: 'none', sm: 'block'}}}>
-                        {navItems.map((item) => (
-                            <Button key={item} sx={{color: '#fff'}}>
-                                {item}
-                            </Button>
+                    <Box sx={{display: {xs: 'none', sm: 'flex'}}}>
+                        {/*{navItems.map((item) => (*/}
+                        {/*    <Button key={item} sx={{color: '#fff'}}>*/}
+                        {/*        {item}*/}
+                        {/*    </Button>*/}
+                        {/*))}*/}
+                        {texts[selectedLanguage].links.map((item) => (
+                            <Link className={`navbar-link ${showNav ? "show" : ""}`} to={item.url} duration={500} key={item.id} sx={{color: '#fff'}}>
+                                {item.text}
+                            </Link>
                         ))}
                     </Box>
                     <LanguageSwitch/>
