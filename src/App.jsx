@@ -12,14 +12,13 @@ import Kranio from "./components/Kranio";
 function App() {
   return (
     <>
-      <LanguageSwitch />
       <Navbar />
-      <Home />
+      {/*<Home />*/}
       <About />
       <Kranio />
       <Qualification />
       <PriceList />
-      <Contact />
+      {/*<Contact />*/}
       <ToTop />
       <Footer />
     </>
