@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 
-import homeImg from "../assets/IMG_3327.png";
+import homeImg from "../assets/IMG_4328.png";
 
 const Home = () => {
   return (

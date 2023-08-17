@@ -25,10 +25,10 @@ html {
 
 .home {
   height: 500px;
-  background-image: url("./assets/IMG_3327.png");
+  background-image: url("./assets/IMG_4328.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: contain; /* Resize the background image to cover the entire container */
 }
 
 .about {

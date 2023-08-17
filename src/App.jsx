@@ -20,8 +20,8 @@ function App() {
       <Qualification />
       <PriceList />
       <Contact />
-      <ToTop />
       <Footer />
+      <ToTop />
     </>
   );
 }
