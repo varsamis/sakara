@@ -1,6 +1,16 @@
 html {
   scroll-behavior: smooth;
 }
+.parallax {
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .totop {
   position: fixed;
@@ -26,25 +36,53 @@ html {
 .home {
   height: 500px;
   background-image: url("./assets/IMG_4328.png");
-  background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: contain; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+}
+
+.homeText {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.homeName {
+  color: #ffffffbb;
+  font-size: 5em;
+  overflow-wrap: break-word;
+}
+.homeDescr {
+  color: #ffffffbb;
+  text-transform: uppercase;
+  font-family: "barlow-extralight", "barlow", "sans-serif";
+  font-weight: 200;
 }
 
 .about {
-  display: grid;
+  height: 500px;
+  margin: 25px 16px 25px 16px;
+}
+
+.about .aboutText {
+  margin-right: 8px;
+}
+
+.about .more-button {
+  display: none;
 }
 
 .about img {
-  height: 15rem;
-  border-radius: 50%;
-  margin: 0.5rem;
+  float: right;
+  height: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto";
+  font-weight: 800;
+  background-color: #d6eaf8; /* light blue */
 }
 .contact {
   display: grid;
@@ -61,6 +99,21 @@ body {
   grid-column-start: 2;
 }
 
+.select-lang {
+  position: relative;
+  display: flex;
+  float: right;
+}
+
+.select-lang img {
+  height: 1.5rem;
+  margin: 0.5rem;
+}
+
+.select-lang:hover {
+  cursor: pointer;
+}
+
 /* Common Navbar */
 .navbar-link:hover {
   cursor: pointer;
@@ -69,18 +122,28 @@ body {
 
 /* Small Screen */
 @media (max-width: 768px) {
+  .home {
+    position: unset;
+  }
   .navbar-links {
     display: none;
   }
   .navbar-links.show {
     display: block;
     position: absolute;
-    background-color: #3498db7b;
+    background-color: #79d1f7aa;
+    z-index: 9999;
+    height: 100%;
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
   }
   .navbar-toggle {
     display: block;
+    background-color: #d6eaf8; /* light blue */
+    border: none;
+    color: #3498db; /* bright blue */
+    padding: 10px 20px;
+    font-size: 1.5rem;
   }
   .navbar-brand {
     margin-right: 20px;
@@ -88,13 +151,53 @@ body {
   .navbar-link.show {
     margin: 10px;
     display: flex;
+    color: #ffffff;
     flex-direction: row;
     justify-content: left;
     align-items: center;
   }
   /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-  .parallax {
+  /* .parallax {
     background-attachment: scroll;
+  } */
+
+  .homeName {
+    font-size: 3em;
+  }
+  .about img {
+    float: unset;
+    width: 100%;
+  }
+
+  .about .aboutText {
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  .about .aboutTextVisible {
+    max-height: none;
+  }
+  .about .more-button {
+    display: block;
+    font-size: 2rem;
+    border: 0px;
+    background-color: transparent;
+  }
+  .about .fade-overlay {
+    content: "";
+    position: inherit;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 30px; /* Half of the truncated height */
+    /* background: linear-gradient(to bottom, transparent, #d6eaf8); */
+    background: linear-gradient(to bottom, transparent, white);
+    pointer-events: none;
+  }
+
+  .about {
+    height: unset;
+    margin: 25px 16px 25px 16px;
   }
 }
 
@@ -113,16 +216,7 @@ body {
   .navbar-link {
     margin: 10px;
   }
-  .parallax {
-    /* Full height */
-    height: 100%;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   .cranio-ul {
     margin: 10px;
     display: flex;
@@ -134,7 +228,6 @@ body {
 }
 
 body {
-  background-color: #d6eaf8; /* light blue */
   color: #34495e; /* dark blue */
 }
 h1,
@@ -166,10 +259,6 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background-color: #1abc9c; /* greenish-blue */
-  border: none;
-  color: #ffffff; /* white */
-  padding: 10px 20px;
   text-transform: uppercase;
 }
 button:hover,
@@ -177,19 +266,4 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
   color: #148f77; /* darker greenish-blue */
-}
-
-.select-lang {
-  position: relative;
-  display: flex;
-  float: right;
-}
-
-.select-lang img {
-  height: 1.5rem;
-  margin: 0.5rem;
-}
-
-.select-lang:hover {
-  cursor: pointer;
 }

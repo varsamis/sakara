@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { texts } from "../data";
 import { Link, animateScroll } from "react-scroll";
+import { HiMenu } from "react-icons/hi";
 import { useGlobalContext } from "../context";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <button className="navbar-toggle" onClick={toggleNav}>
-        <i className="fa fa-bars"></i>
+        <HiMenu />
       </button>
       <div className={`navbar-links ${showNav ? "show" : ""}`}>
         {texts[selectedLanguage].links.map((link) => (

@@ -6,9 +6,12 @@ export const useGlobalContext = () => useContext(GlobalContext);
 
 const AppContext = (props) => {
   const [selectedLanguage, setSelectedLanguage] = useState("cz");
+  const [moreAbout, setMoreAbout] = useState(false);
 
   return (
-    <GlobalContext.Provider value={{ selectedLanguage, setSelectedLanguage }}>{props.children}</GlobalContext.Provider>
+    <GlobalContext.Provider value={{ selectedLanguage, setSelectedLanguage, moreAbout, setMoreAbout }}>
+      {props.children}
+    </GlobalContext.Provider>
   );
 };
 
