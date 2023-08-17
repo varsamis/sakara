@@ -185,13 +185,10 @@ body {
   }
   .about .fade-overlay {
     content: "";
-    position: inherit;
-    top: -10px;
-    left: 0;
-    right: 0;
-    height: 30px; /* Half of the truncated height */
-    /* background: linear-gradient(to bottom, transparent, #d6eaf8); */
-    background: linear-gradient(to bottom, transparent, white);
+    position: sticky;
+    margin-top: -60px;
+    height: 60px; /* Half of the truncated height */
+    background: linear-gradient(to bottom, transparent, #d6eaf8);
     pointer-events: none;
   }
 
