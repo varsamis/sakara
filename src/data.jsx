@@ -110,7 +110,7 @@ export const texts = {
     success: "Message sent successfully!",
     error: "Error sending message:",
     links: [
-      { id: 1, url: "", text: "Home" },
+      { id: 1, url: "home", text: "Home" },
       { id: 2, url: "about", text: "About" },
       { id: 3, url: "kranio", text: "Cranioshacral therapy" },
       { id: 4, url: "qualification", text: "Qualification" },
@@ -223,7 +223,7 @@ export const texts = {
     success: "Zpráva úspěšně odeslána!",
     error: "Chyba při odesílání zprávy:",
     links: [
-      { id: 1, url: "", text: "Doma" },
+      { id: 1, url: "home", text: "Doma" },
       { id: 2, url: "about", text: "O mně" },
       { id: 3, url: "kranio", text: "Kraniosakrální terapie" },
       { id: 4, url: "qualification", text: "Kvalifikace" },

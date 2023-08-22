@@ -2,6 +2,7 @@ import { useState } from "react";
 import { texts } from "../data";
 import { Link, animateScroll } from "react-scroll";
 import { HiMenu } from "react-icons/hi";
+import LanguageSwitch from "./LanguageSwitch";
 import { useGlobalContext } from "../context";
 
 const Navbar = () => {
@@ -34,6 +35,7 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
+      <LanguageSwitch />
     </nav>
   );
 };

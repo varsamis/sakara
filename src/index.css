@@ -75,6 +75,8 @@ html {
 .about img {
   float: right;
   height: 100%;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 2px #083b5dbb);
 }
 
 body {
@@ -99,25 +101,38 @@ body {
   grid-column-start: 2;
 }
 
-.select-lang {
-  position: relative;
-  display: flex;
-  float: right;
-}
-
 .select-lang img {
   height: 1.5rem;
   margin: 0.5rem;
 }
 
-.select-lang:hover {
-  cursor: pointer;
+.navbar {
+  top: 0;
+  z-index: 9999;
+  position: sticky;
+  display: flex;
+  height: 5rem;
+  justify-content: right;
+  background-color: #d6eaf8;
 }
 
-/* Common Navbar */
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-link:hover {
   cursor: pointer;
   color: #b7dcf8;
+}
+
+.navbar .select-lang {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .select-lang:hover {
+  cursor: pointer;
 }
 
 /* Small Screen */
@@ -125,6 +140,12 @@ body {
   .home {
     position: unset;
   }
+
+  .navbar {
+    justify-content: space-between;
+    position: unset;
+  }
+
   .navbar-links {
     display: none;
   }
@@ -134,8 +155,6 @@ body {
     background-color: #79d1f7aa;
     z-index: 9999;
     height: 100%;
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
   }
   .navbar-toggle {
     display: block;
@@ -167,6 +186,7 @@ body {
   .about img {
     float: unset;
     width: 100%;
+    filter: unset;
   }
 
   .about .aboutText {
@@ -200,13 +220,6 @@ body {
 
 /* Normal Screen */
 @media (min-width: 769px) {
-  .navbar-links {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    transition: max-height 0.3s ease-out;
-    max-height: 3rem;
-  }
   .navbar-toggle {
     display: none;
   }

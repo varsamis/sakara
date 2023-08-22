@@ -12,7 +12,7 @@ const Home = () => {
             Sabrina <br />
             Karavarsami
           </div>
-          <div className="homeDescr">Super cool awsome person</div>
+          {/* <div className="homeDescr">Super cool awsome person</div> */}
         </div>
       </section>
     </Element>
