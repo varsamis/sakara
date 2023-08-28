@@ -1,5 +1,5 @@
 import { useState } from "react";
-import englishFlag from "../assets/UK.svg";
+import englishFlag from "../assets/EN.svg";
 import czechFlag from "../assets/CZ.svg";
 import { useGlobalContext } from "../context";
 

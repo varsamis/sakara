@@ -18,7 +18,8 @@ const Navbar = () => {
       <button className="navbar-toggle" onClick={toggleNav}>
         <HiMenu />
       </button>
-      <div className={`navbar-links ${showNav ? "show" : ""}`}>
+
+      <div className={`navbar-list ${showNav ? "show" : ""}`}>
         {texts[selectedLanguage].links.map((link) => (
           <Link
             key={link.id}
