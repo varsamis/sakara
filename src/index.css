@@ -66,14 +66,17 @@ html {
 
 .about {
   display: flex;
-  height: 500px;
   gap: 1rem;
   flex-direction: row;
+  /* align-content: flex-start; */
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
 }
 
 .about .aboutText {
-  flex-grow: 1;
-  flex-shrink: 3;
+  flex-grow: 0;
+  flex-shrink: 1;
 }
 
 .about .more-button {
@@ -82,9 +85,11 @@ html {
 
 .about img {
   flex-grow: 0;
-  flex-shrink: 3;
+  flex-shrink: 1;
+  max-height: 500px;
   border-radius: 5px;
   filter: drop-shadow(5px 5px 2px #083b5dbb);
+  /* align-self: center; */
 }
 
 body {
@@ -208,7 +213,6 @@ body {
 
   .about img {
     float: unset;
-    width: 100%;
     filter: unset;
   }
 
@@ -221,7 +225,7 @@ body {
     max-height: none;
   }
   .about .more-button {
-    display: block;
+    display: flex;
     font-size: 2rem;
     border: 0px;
     background-color: transparent;
@@ -250,8 +254,9 @@ body {
   }
 }
 
-body {
-  color: #34495e; /* dark blue */
+p,
+a {
+  color: #124d75; /* dark blue */
 }
 h1,
 h2,
@@ -260,33 +265,4 @@ h4,
 h5,
 h6 {
   color: #1abc9c; /* greenish-blue */
-}
-a {
-  color: #124d75; /* bright blue */
-}
-blockquote {
-  background-color: #eaf2f8; /* very light blue */
-  border-left: 5px solid #1abc9c; /* greenish-blue */
-  color: #34495e; /* dark blue */
-}
-code {
-  background-color: #eaf2f8; /* very light blue */
-  color: #2c3e50; /* dark gray-blue */
-}
-pre {
-  background-color: #eaf2f8; /* very light blue */
-  border: 1px solid #1abc9c; /* greenish-blue */
-  color: #2c3e50; /* dark gray-blue */
-}
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  text-transform: uppercase;
-}
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover {
-  color: #148f77; /* darker greenish-blue */
 }
