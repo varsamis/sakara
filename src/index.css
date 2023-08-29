@@ -82,6 +82,9 @@ html {
 .about .more-button {
   display: none;
 }
+.about h {
+  align-self: center;
+}
 
 .about img {
   flex-grow: 0;
