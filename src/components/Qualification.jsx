@@ -5,9 +5,9 @@ import { useGlobalContext } from "../context";
 const Qualification = () => {
   const { selectedLanguage } = useGlobalContext();
   return (
-    <Element name="qualification">
+    <Element name="qualification" className="container">
+      <h2 className="title">{texts[selectedLanguage].h_qualification}</h2>
       <section className="section qualification" id="qualification">
-        <h3>{texts[selectedLanguage].h_qualification}</h3>
         <h4>{texts[selectedLanguage].core_qualification.description}</h4>
         <ol>
           {texts[selectedLanguage].core_qualification.items.map((item, i) => (

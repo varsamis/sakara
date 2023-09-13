@@ -2,10 +2,9 @@ import { Element } from "react-scroll";
 
 const PriceList = () => {
   return (
-    <Element name="pricelist">
-      <section className="section pricelist" id="pricelist">
-        <h3>Pricelist</h3>
-      </section>
+    <Element name="pricelist" className="container">
+      <h2 className="title">Pricelist</h2>
+      <section className="section pricelist" id="pricelist"></section>
     </Element>
   );
 };

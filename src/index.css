@@ -12,8 +12,20 @@ html {
   background-size: cover;
 }
 
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
 .section {
   display: flex;
+}
+
+.title {
+  align-self: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  text-transform: capitalize;
 }
 
 .totop {
@@ -65,26 +77,46 @@ html {
 }
 
 .about {
-  display: flex;
   height: 500px;
   gap: 1rem;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.about .aboutText {
+.text {
   flex-grow: 1;
   flex-shrink: 3;
+  margin: 2rem;
 }
 
-.about .more-button {
+.more-button {
   display: none;
 }
 
 .about img {
-  flex-grow: 0;
-  flex-shrink: 3;
+  flex-grow: 1;
+  flex-shrink: 1;
   border-radius: 5px;
   filter: drop-shadow(5px 5px 2px #083b5dbb);
+  margin: 1rem;
+}
+
+.kranio {
+  flex-wrap: wrap;
+  margin: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.kranio-ul {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.qualification {
+  margin: 1rem;
+  flex-wrap: wrap;
 }
 
 body {
@@ -94,19 +126,16 @@ body {
   font-weight: 800;
   background-color: #d6eaf8; /* light blue */
 }
+
 .contact {
-  display: grid;
-  padding: 5px;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 50px 50px 50px 50px;
+  align-self: center;
+  justify-content: space-evenly;
+  margin: 1rem;
 }
 
-.contact iframe {
-  grid-column-start: 1;
-}
-
-.contact p {
-  grid-column-start: 2;
+.address {
+  flex-flow: row;
+  flex-grow: 0;
 }
 
 .select-lang p {
@@ -140,6 +169,7 @@ body {
 .select-lang img {
   height: 2rem;
   align-self: center;
+  margin: 10px;
 }
 
 .select-lang:hover {
@@ -210,45 +240,59 @@ body {
     float: unset;
     width: 100%;
     filter: unset;
+    margin: unset;
   }
 
-  .about .aboutText {
+  .contact {
+    flex-flow: column;
+  }
+
+  .address {
+    flex-wrap: wrap;
+  }
+
+  .kranio {
+    margin: 1rem;
+    margin-left: unset;
+    margin-right: unset;
+    flex-direction: column;
+  }
+
+  .kranio-ul {
+    flex-direction: column;
+  }
+
+  .text {
     max-height: 200px;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
   }
-  .about .aboutTextVisible {
+  .textVisible {
     max-height: none;
+    margin: 2rem;
   }
-  .about .more-button {
-    display: block;
+  .more-button {
+    display: flex;
     font-size: 2rem;
     border: 0px;
     background-color: transparent;
+    align-self: center;
   }
-  .about .fade-overlay {
+  .fade-overlay {
     content: "";
     position: sticky;
-    margin-top: -60px;
-    height: 60px; /* Half of the truncated height */
+    margin-top: -80px;
+    height: 60px;
     background: linear-gradient(to bottom, transparent, #d6eaf8);
     pointer-events: none;
   }
 
   .about {
     height: unset;
-    margin: 25px 16px 25px 16px;
   }
 }
 
 /* Normal Screen */
-@media (min-width: 769px) {
-  .cranio-ul {
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-  }
-}
 
 body {
   color: #34495e; /* dark blue */
@@ -277,16 +321,4 @@ pre {
   background-color: #eaf2f8; /* very light blue */
   border: 1px solid #1abc9c; /* greenish-blue */
   color: #2c3e50; /* dark gray-blue */
-}
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  text-transform: uppercase;
-}
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover {
-  color: #148f77; /* darker greenish-blue */
 }
