@@ -1,6 +1,7 @@
 export const texts = {
   common: {
-    address: "Sládkova 262/7, 170 00 Prague 7 - Bubeneč (v těsné blízkosti Letenského nám.)",
+    address_l1: "Sládkova 262/7, 170 00 Prague 7",
+    address_l2: "Bubeneč (v těsné blízkosti Letenského nám.)",
     telephone: "+420 775 232 633",
     email: "info@sakara.cz",
   },

@@ -128,14 +128,22 @@ body {
 }
 
 .contact {
+  display: flex;
   align-self: center;
   justify-content: space-evenly;
   margin: 1rem;
+  gap: 1rem;
 }
 
 .address {
   flex-flow: row;
-  flex-grow: 0;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+.map {
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .select-lang p {

@@ -1,5 +1,6 @@
 import { Element } from "react-scroll";
 import { texts } from "../data";
+import { HiOutlineLocationMarker, HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
@@ -10,9 +11,19 @@ const Contact = () => {
           <iframe src="https://en.frame.mapy.cz/s/nuleluvome" width="400" height="280" frameborder="0"></iframe>
         </div>
         <div className="address">
-          <p>Ul. {texts.common.address}</p>
-          <p>T. {texts.common.telephone}</p>
-          <p>E. {texts.common.email}</p>
+          <>
+            <HiOutlineLocationMarker />
+            <p> {texts.common.address_l1}</p>
+            <p> {texts.common.address_l2}</p>
+          </>
+          <>
+            <HiOutlinePhone />
+            <p>{texts.common.telephone}</p>
+          </>
+          <>
+            <HiOutlineMail />
+            <p>{texts.common.email}</p>
+          </>
         </div>
       </section>
     </Element>
