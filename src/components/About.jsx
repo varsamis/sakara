@@ -14,33 +14,35 @@ const About = () => {
   };
 
   return (
-    <section className="section about" id="about">
-      <img src={img1} alt="" className="img1" />
+    <Element name="about">
+      <section className="section about" id="about">
+        <img src={img1} alt="" className="img1" />
 
-      <div>
-        <p className={moreAbout ? "aboutTextVisible" : "aboutText"}>
-          {texts[selectedLanguage].p_about.map((p, i) => (
-            <article key={i}>
-              <p key={i}>{p}</p>
-            </article>
-          ))}
-        </p>
-      </div>
+        <div>
+          <p className={moreAbout ? "aboutTextVisible" : "aboutText"}>
+            {texts[selectedLanguage].p_about.map((p, i) => (
+              <article key={i}>
+                <p key={i}>{p}</p>
+              </article>
+            ))}
+          </p>
+        </div>
 
-      {moreAbout ? (
-        <button className="more-button" onClick={handleMoreAboutChange}>
-          <HiChevronUp />
-        </button>
-      ) : (
-        <>
-          <div className="fade-overlay"></div>
+        {moreAbout ? (
           <button className="more-button" onClick={handleMoreAboutChange}>
-            <HiChevronDown />
+            <HiChevronUp />
           </button>
-        </>
-      )}
-      <img src={img2} alt="" className="img2" />
-    </section>
+        ) : (
+          <>
+            <div className="fade-overlay"></div>
+            <button className="more-button" onClick={handleMoreAboutChange}>
+              <HiChevronDown />
+            </button>
+          </>
+        )}
+        <img src={img2} alt="" className="img2" />
+      </section>
+    </Element>
   );
 };
 export default About;
