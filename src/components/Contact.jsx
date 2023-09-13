@@ -8,7 +8,7 @@ const Contact = () => {
       <h2 className="title">Contact</h2>
       <section className="section contact" id="contact">
         <div className="map">
-          <iframe src="https://en.frame.mapy.cz/s/nuleluvome" width="400" height="280" frameborder="0"></iframe>
+          <iframe src="https://en.frame.mapy.cz/s/nuleluvome" width="400" height="280" frameBorder="0"></iframe>
         </div>
         <div className="address">
           <>

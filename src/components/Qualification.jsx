@@ -18,9 +18,12 @@ const Qualification = () => {
             </li>
           ))}
         </ol>
-        {texts[selectedLanguage].other_qualification.map((item, i) => (
-          <h4>{item.title}</h4>
-        ))}
+        <h4>{texts[selectedLanguage].other_qualification.description}</h4>
+        <ul>
+          {texts[selectedLanguage].other_qualification.items.map((item, i) => (
+            <li key={item.title}>{item.title}</li>
+          ))}
+        </ul>
       </section>
     </Element>
   );

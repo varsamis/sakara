@@ -1,4 +1,3 @@
-import img1 from "../assets/IMG_2910.png";
 import { Element } from "react-scroll";
 import { texts } from "../data";
 import { useGlobalContext } from "../context";
@@ -13,7 +12,7 @@ const Kranio = () => {
   };
 
   return (
-    <Element name="kranio" id="kranio" className="container">
+    <Element name="kranio" id="kranio" className="container parallax kranio-background">
       <h2 className="title">{texts[selectedLanguage].h_kranio}</h2>
       <section className="section kranio">
         <div className={moreCranio ? "textVisible" : "text"}>

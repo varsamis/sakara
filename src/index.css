@@ -1,6 +1,36 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  color: #34495e; /* dark blue */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #124d75; /* greenish-blue */
+}
+a {
+  color: #124d75; /* bright blue */
+}
+blockquote {
+  background-color: #eaf2f8; /* very light blue */
+  border-left: 5px solid #1abc9c; /* greenish-blue */
+  color: #34495e; /* dark blue */
+}
+code {
+  background-color: #eaf2f8; /* very light blue */
+  color: #2c3e50; /* dark gray-blue */
+}
+pre {
+  background-color: #eaf2f8; /* very light blue */
+  border: 1px solid #1abc9c; /* greenish-blue */
+  color: #2c3e50; /* dark gray-blue */
+}
+
 .parallax {
   /* Full height */
   height: 100%;
@@ -103,9 +133,17 @@ html {
 
 .kranio {
   flex-wrap: wrap;
-  margin: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+}
+
+/* .kranio-background h2 {
+  -webkit-text-stroke: 1px white;
+} */
+
+.kranio-background {
+  content: "";
+  background-image: url("./assets/P7140370.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .kranio-ul {
@@ -116,7 +154,8 @@ html {
 
 .qualification {
   margin: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 body {
@@ -231,10 +270,6 @@ body {
     justify-content: left;
     align-items: center;
   }
-  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-  /* .parallax {
-    background-attachment: scroll;
-  } */
 
   .homeName {
     font-size: 3em;
@@ -286,6 +321,7 @@ body {
     background-color: transparent;
     align-self: center;
   }
+
   .fade-overlay {
     content: "";
     position: sticky;
@@ -301,32 +337,3 @@ body {
 }
 
 /* Normal Screen */
-
-body {
-  color: #34495e; /* dark blue */
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #1abc9c; /* greenish-blue */
-}
-a {
-  color: #124d75; /* bright blue */
-}
-blockquote {
-  background-color: #eaf2f8; /* very light blue */
-  border-left: 5px solid #1abc9c; /* greenish-blue */
-  color: #34495e; /* dark blue */
-}
-code {
-  background-color: #eaf2f8; /* very light blue */
-  color: #2c3e50; /* dark gray-blue */
-}
-pre {
-  background-color: #eaf2f8; /* very light blue */
-  border: 1px solid #1abc9c; /* greenish-blue */
-  color: #2c3e50; /* dark gray-blue */
-}

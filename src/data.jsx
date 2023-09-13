@@ -88,19 +88,22 @@ export const texts = {
         },
       ],
     },
-    other_qualification: [
-      { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
-      { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
-      { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
-      {
-        title:
-          "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
-        text: "",
-      },
-      { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
-      { title: "Reiki - Boris Tichanovský", text: "" },
-      { title: "Reiki - Iva Kukačková", text: "" },
-    ],
+    other_qualification: {
+      description: "Other Qualification",
+      items: [
+        { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
+        { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
+        { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
+        {
+          title:
+            "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
+          text: "",
+        },
+        { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
+        { title: "Reiki - Boris Tichanovský", text: "" },
+        { title: "Reiki - Iva Kukačková", text: "" },
+      ],
+    },
     name: "Name:",
     namePh: "Your name",
     subject: "Subject:",
@@ -200,19 +203,22 @@ export const texts = {
         },
       ],
     },
-    other_qualification: [
-      { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
-      { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
-      { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
-      {
-        title:
-          "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
-        text: "",
-      },
-      { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
-      { title: "Reiki - Boris Tichanovský", text: "" },
-      { title: "Reiki - Iva Kukačková", text: "" },
-    ],
+    other_qualification: {
+      description: "Další kvalifikace",
+      items: [
+        { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
+        { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
+        { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
+        {
+          title:
+            "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
+          text: "",
+        },
+        { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
+        { title: "Reiki - Boris Tichanovský", text: "" },
+        { title: "Reiki - Iva Kukačková", text: "" },
+      ],
+    },
 
     name: "Jméno:",
     namePh: "Jméno",
