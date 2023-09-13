@@ -18,27 +18,28 @@ const About = () => {
       <h2 className="title">{texts[selectedLanguage].h_about}</h2>
       <section className="section about">
         <img src={img1} alt="" className="img1" />
+        <div className="about-card">
+          <div className={moreAbout ? "textVisible" : "text"}>
+            {texts[selectedLanguage].p_about.map((p, i) => (
+              <article key={i}>
+                <p key={i}>{p}</p>
+              </article>
+            ))}
+          </div>
 
-        <div className={moreAbout ? "textVisible" : "text"}>
-          {texts[selectedLanguage].p_about.map((p, i) => (
-            <article key={i}>
-              <p key={i}>{p}</p>
-            </article>
-          ))}
-        </div>
-
-        {moreAbout ? (
-          <button className="more-button" onClick={handleMoreAboutChange}>
-            <HiChevronDoubleUp />
-          </button>
-        ) : (
-          <>
-            <div className="fade-overlay"></div>
+          {moreAbout ? (
             <button className="more-button" onClick={handleMoreAboutChange}>
-              <HiChevronDoubleDown />
+              <HiChevronDoubleUp />
             </button>
-          </>
-        )}
+          ) : (
+            <>
+              <div className="fade-overlay"></div>
+              <button className="more-button" onClick={handleMoreAboutChange}>
+                <HiChevronDoubleDown />
+              </button>
+            </>
+          )}
+        </div>
         <img src={img2} alt="" className="img2" />
       </section>
     </Element>
