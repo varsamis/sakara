@@ -173,6 +173,15 @@ pre {
   flex-direction: column;
 }
 
+.qualification ul {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.qualification li {
+  margin-bottom: 0.5rem;
+}
+
 body {
   margin: 0;
   padding: 0;

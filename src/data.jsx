@@ -63,11 +63,11 @@ export const texts = {
       description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
       items: [
         {
-          title: "ošetření příčných struktur",
+          title: "Ošetření příčných struktur",
           text: "(historie a principy kraniosakrální osteopatie, anatomie a fyziologie kraniosakrálního systému, etika přístupu ke klientovi, základy psychohygieny, teorie a praxe palpace kraniosakrálního rytmu, anatomie a ošetření příčných struktur, dekomprese kosti křížové, teorie a praxe práce se spinální durou mater, útlum kraniosakrálního systému CV4)",
         },
         {
-          title: "neurocranium",
+          title: "Neurocranium",
           text: "(prohloubení dovedností práce s kraniosakrálním rytmem, anatomie a fyziologie kraniosakrálního rytmu na lebce, teorie a praxe dekomprese jednotlivých lebečních kostí: frontální, parietální, SSB, temporální, temporomandibulární kloub)",
         },
         {
@@ -75,15 +75,15 @@ export const texts = {
           text: "(anatomie a fyziologie kraniálního rytmu na SSB, teorie a praxe vyšetření a ošetření 11 lézí SSB, anatomie a fyziologie kraniálního rytmu na membránovém systému, palpace a sledování rytmu na membránovém systému, ošetření membránového systému)",
         },
         {
-          title: "viscerocranium, energetický přístup ",
+          title: "Viscerocranium, energetický přístup ",
           text: "(anatomie a fyziologie kraniálního rytmu na horním patře a obličejové části, vyšetření a ošetření komplexu sphenoid-maxilla-vomer-palatinum, ošetření obličejové části – zygomaticum, vyšetření a ošetření zubů, mentální detoxikace, detoxikace organismu, práce s energií - V spred)",
         },
         {
-          title: "drenáž žilních splavů, komorový systém, EV 4",
+          title: "Drenáž žilních splavů, komorový systém, EV 4",
           text: "(anatomie žilních splavů, fyziologie žilních splavů, symptomy chorob, anatomie mozkových komor, fyziologie mozkových komor)",
         },
         {
-          title: "tělo a emoce",
+          title: "Tělo a emoce",
           text: "(vymezení působnosti podpůrného dialogu, etika přístupu v interakci s klientem, základy teorie psychoterapeutických přístupů, praktická cvičení, práce se zdroji, vtělení zdrojů, pociťovaný smysl, hranice a jejich rozpoznání, verbální a neverbální komunikace, stres a trauma, jak vzniká, jak ho poznat a jak předejít retraumatizaci, somatoemocionální uvolnění – teorie – praktická cvičení, cvičení ve vedení praxe s verbální podporou)",
         },
       ],
@@ -186,11 +186,11 @@ export const texts = {
       description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
       items: [
         {
-          title: "ošetření příčných struktur",
+          title: "Ošetření příčných struktur",
           text: "(historie a principy kraniosakrální osteopatie, anatomie a fyziologie kraniosakrálního systému, etika přístupu ke klientovi, základy psychohygieny, teorie a praxe palpace kraniosakrálního rytmu, anatomie a ošetření příčných struktur, dekomprese kosti křížové, teorie a praxe práce se spinální durou mater, útlum kraniosakrálního systému CV4)",
         },
         {
-          title: "neurocranium",
+          title: "Neurocranium",
           text: "(prohloubení dovedností práce s kraniosakrálním rytmem, anatomie a fyziologie kraniosakrálního rytmu na lebce, teorie a praxe dekomprese jednotlivých lebečních kostí: frontální, parietální, SSB, temporální, temporomandibulární kloub)",
         },
         {
@@ -198,15 +198,15 @@ export const texts = {
           text: "(anatomie a fyziologie kraniálního rytmu na SSB, teorie a praxe vyšetření a ošetření 11 lézí SSB, anatomie a fyziologie kraniálního rytmu na membránovém systému, palpace a sledování rytmu na membránovém systému, ošetření membránového systému)",
         },
         {
-          title: "viscerocranium, energetický přístup ",
+          title: "Viscerocranium, energetický přístup ",
           text: "(anatomie a fyziologie kraniálního rytmu na horním patře a obličejové části, vyšetření a ošetření komplexu sphenoid-maxilla-vomer-palatinum, ošetření obličejové části – zygomaticum, vyšetření a ošetření zubů, mentální detoxikace, detoxikace organismu, práce s energií - V spred)",
         },
         {
-          title: "drenáž žilních splavů, komorový systém, EV 4",
+          title: "Drenáž žilních splavů, komorový systém, EV 4",
           text: "(anatomie žilních splavů, fyziologie žilních splavů, symptomy chorob, anatomie mozkových komor, fyziologie mozkových komor)",
         },
         {
-          title: "tělo a emoce",
+          title: "Tělo a emoce",
           text: "(vymezení působnosti podpůrného dialogu, etika přístupu v interakci s klientem, základy teorie psychoterapeutických přístupů, praktická cvičení, práce se zdroji, vtělení zdrojů, pociťovaný smysl, hranice a jejich rozpoznání, verbální a neverbální komunikace, stres a trauma, jak vzniká, jak ho poznat a jak předejít retraumatizaci, somatoemocionální uvolnění – teorie – praktická cvičení, cvičení ve vedení praxe s verbální podporou)",
         },
       ],
