@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { texts } from "../data";
+import sakaraIcon from "../assets/Sakara.svg";
 import { Link, animateScroll } from "react-scroll";
 import { HiMenu } from "react-icons/hi";
 import LanguageSwitch from "./LanguageSwitch";
@@ -15,6 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+      <img src={sakaraIcon} alt="sk" id="sk" />
       <button className="navbar-toggle" onClick={toggleNav}>
         <HiMenu />
       </button>

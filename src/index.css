@@ -52,9 +52,15 @@ pre {
 }
 
 .title {
+  display: flex;
   align-self: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 900;
+}
+
+.title img {
+  width: 30px;
+  margin: 5px;
 }
 
 .totop {
@@ -225,8 +231,13 @@ body {
   /* position: sticky; */
   display: flex;
   height: 5rem;
-  justify-content: right;
+  justify-content: flex-end;
   /* background-color: #d6eaf8; */
+}
+.navbar img {
+  width: 5rem;
+  margin-right: auto;
+  margin-left: 10px;
 }
 
 .navbar-list {
@@ -240,12 +251,10 @@ body {
 }
 
 .select-lang {
-  display: flex;
-  align-items: center;
+  align-self: center;
 }
 .select-lang img {
   height: 2rem;
-  align-self: center;
   margin: 10px;
 }
 
@@ -337,6 +346,11 @@ body {
 
   .kranio-ul {
     flex-direction: column;
+  }
+
+  .qualification ul {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .text {

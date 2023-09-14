@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 300 200 100" width="200px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<svg viewBox="0 300 200 100" width="150px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <g style="" transform="matrix(0.4, 0, 0, 0.333333, 0, 266.666656)">
-    <path d="M 200 100 L 300 200 L 100 200 L 200 100 Z" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-linejoin: bevel;stroke-width: 5" bx:shape="triangle 100 100 200 100 0.5 0 1@a5bf3e60"/>
-    <path d="M -200 -300 L -100 -200 L -300 -200 L -200 -300 Z" style="stroke: rgb(0, 0, 0); stroke-linejoin: bevel;" transform="matrix(-1, 0, 0, -1, 0, 0)" bx:shape="triangle -300 -300 200 100 0.5 0 1@e54238c4"/>
-    <path d="M -300 200 L -200 300 L -400 300 L -300 200 Z" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-linejoin: bevel;" transform="matrix(-1, 0, 0, 1, 0, 0)" bx:shape="triangle -400 200 200 100 0.5 0 1@cab55661"/>
-    <path d="M -100 200 L 0 300 L -200 300 L -100 200 Z" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-linejoin: bevel;stroke-width: 5" transform="matrix(-1, 0, 0, 1, 0, 0)" bx:shape="triangle -200 200 200 100 0.5 0 1@07ccee2e"/>
-    <path d="M -300 -400 L -200 -300 L -400 -300 L -300 -400 Z" style="stroke: rgb(0, 0, 0); stroke-linejoin: bevel;" transform="matrix(-1, 0, 0, -1, 0, 0)" bx:shape="triangle -400 -400 200 100 0.5 0 1@1563c02e"/>
-    <path d="M -400 -300 L -300 -200 L -500 -200 L -400 -300 Z" style="stroke: rgb(0, 0, 0); stroke-linejoin: bevel;" transform="matrix(-1, 0, 0, -1, 0, 0)" bx:shape="triangle -500 -300 200 100 0.5 0 1@41d2528a"/>
+    <path d="M 200 100 L 300 200 L 100 200 L 200 100 Z" style="fill: rgb(255, 255, 255,0); stroke: rgb(18, 77, 117); stroke-linejoin: bevel;stroke-width: 15" bx:shape="triangle 100 100 200 100 0.5 0 1@a5bf3e60"/>
+    <path d="M -200 -300 L -100 -200 L -300 -200 L -200 -300 Z" style="fill:rgb(18, 77, 117); stroke: rgb(18, 77, 117); stroke-linejoin: bevel;stroke-width: 15" transform="matrix(-1, 0, 0, -1, 0, 0)" bx:shape="triangle -300 -300 200 100 0.5 0 1@e54238c4"/>
+    <path d="M -300 200 L -200 300 L -400 300 L -300 200 Z" style="fill: rgb(255, 255, 255,0); stroke: rgb(18, 77, 117); stroke-linejoin: bevel;stroke-width: 15" transform="matrix(-1, 0, 0, 1, 0, 0)" bx:shape="triangle -400 200 200 100 0.5 0 1@cab55661"/>
+    <path d="M -100 200 L 0 300 L -200 300 L -100 200 Z" style="fill: rgb(255, 255, 255,0); stroke: rgb(18, 77, 117); stroke-linejoin: bevel;stroke-width: 15" transform="matrix(-1, 0, 0, 1, 0, 0)" bx:shape="triangle -200 200 200 100 0.5 0 1@07ccee2e"/>
+    <path d="M -300 -400 L -200 -300 L -400 -300 L -300 -400 Z" style="fill:rgb(18, 77, 117); stroke: rgb(18, 77, 117); stroke-linejoin: bevel;stroke-width: 15" transform="matrix(-1, 0, 0, -1, 0, 0)" bx:shape="triangle -400 -400 200 100 0.5 0 1@1563c02e"/>
+    <path d="M -400 -300 L -300 -200 L -500 -200 L -400 -300 Z" style="fill:rgb(18, 77, 117); stroke: rgb(18, 77, 117); stroke-linejoin: bevel;stroke-width: 15" transform="matrix(-1, 0, 0, -1, 0, 0)" bx:shape="triangle -500 -300 200 100 0.5 0 1@41d2528a"/>
   </g>
 </svg>
