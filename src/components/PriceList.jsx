@@ -1,12 +1,13 @@
 import { texts } from "../data";
 import { Element } from "react-scroll";
 import { useGlobalContext } from "../context";
+import Title from "./Title";
 
 const PriceList = () => {
   const { selectedLanguage } = useGlobalContext();
   return (
     <Element name="pricelist" className="container">
-      <h2 className="title">{texts[selectedLanguage].h_pricelist}</h2>
+      <Title text={texts[selectedLanguage].h_pricelist} />
       <section className="section pricelist" id="pricelist">
         <p className="price">{texts[selectedLanguage].p_pricelist.price}</p>
         <p className="cancelation">{texts[selectedLanguage].p_pricelist.cancelation}</p>

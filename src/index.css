@@ -205,9 +205,20 @@ body {
 }
 
 .address {
+  display: flex;
   flex-flow: row;
-  flex-wrap: nowrap;
-  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.address svg {
+  align-self: center;
+  width: 10%;
+}
+
+.address p {
+  align-self: center;
+  width: 90%;
 }
 
 .map {
@@ -278,6 +289,12 @@ body {
   .navbar {
     justify-content: space-between;
     position: unset;
+  }
+
+  .navbar img {
+    width: 5rem;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .navbar-list {

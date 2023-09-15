@@ -5,6 +5,7 @@ import { texts } from "../data";
 import { useGlobalContext } from "../context";
 import { HiChevronDoubleUp, HiChevronDoubleDown } from "react-icons/hi";
 import sakaraIcon from "../assets/Sakara.svg";
+import Title from "./Title";
 
 const About = () => {
   const { selectedLanguage, moreAbout, setMoreAbout } = useGlobalContext();
@@ -16,11 +17,7 @@ const About = () => {
 
   return (
     <Element name="about" id="about" className="container">
-      <h2 className="title">
-        <img src={sakaraIcon} alt="sk" id="sk" />
-        {texts[selectedLanguage].h_about}
-        <img src={sakaraIcon} alt="sk" id="sk" />
-      </h2>
+      <Title text={texts[selectedLanguage].h_about} />
       <section className="section about">
         <img src={img1} alt="" className="img1" />
         <div className="about-card">

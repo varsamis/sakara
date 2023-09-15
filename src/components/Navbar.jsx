@@ -16,10 +16,10 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={sakaraIcon} alt="sk" id="sk" />
       <button className="navbar-toggle" onClick={toggleNav}>
         <HiMenu />
       </button>
+      <img src={sakaraIcon} alt="sk" id="sk" />
 
       <div className={`navbar-list ${showNav ? "show" : ""}`}>
         {texts[selectedLanguage].links.map((link) => (

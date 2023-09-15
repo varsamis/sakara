@@ -1,12 +1,13 @@
 import { Element } from "react-scroll";
 import { texts } from "../data";
 import { useGlobalContext } from "../context";
+import Title from "./Title";
 
 const Qualification = () => {
   const { selectedLanguage } = useGlobalContext();
   return (
     <Element name="qualification" className="container">
-      <h2 className="title">{texts[selectedLanguage].h_qualification}</h2>
+      <Title text={texts[selectedLanguage].h_qualification} />
       <section className="section qualification" id="qualification">
         <ul>
           <li>{texts[selectedLanguage].core_qualification.description}</li>

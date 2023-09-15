@@ -2,6 +2,7 @@ import { Element } from "react-scroll";
 import { texts } from "../data";
 import { useGlobalContext } from "../context";
 import { HiChevronDoubleUp, HiChevronDoubleDown } from "react-icons/hi";
+import Title from "./Title";
 
 const Kranio = () => {
   const { selectedLanguage, moreCranio, setMoreCranio } = useGlobalContext();
@@ -14,7 +15,7 @@ const Kranio = () => {
   return (
     <Element name="kranio" id="kranio" className="container parallax kranio-background">
       <div className="kranio-card">
-        <h2 className="title">{texts[selectedLanguage].h_kranio}</h2>
+        <Title text={texts[selectedLanguage].h_kranio} />
         <section className="section kranio">
           <div className={moreCranio ? "textVisible" : "text"}>
             {texts[selectedLanguage].p_kranio.map((p, i) => (
