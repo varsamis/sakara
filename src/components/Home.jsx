@@ -1,8 +1,9 @@
 import { Element } from "react-scroll";
-
-import homeImg from "../assets/IMG_4328.png";
+import { texts } from "../data";
+import { useGlobalContext } from "../context";
 
 const Home = () => {
+  const { selectedLanguage } = useGlobalContext();
   return (
     <Element name="home" className="contianer">
       <section className="section home parallax" id="home">
@@ -11,6 +12,7 @@ const Home = () => {
             Sabrina <br />
             Karavarsami
           </div>
+          <div className="homeDescr">{texts[selectedLanguage].home.descr}</div>
         </div>
       </section>
     </Element>

@@ -54,7 +54,7 @@ pre {
 .title {
   display: flex;
   align-self: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "customFont", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
 
@@ -100,14 +100,16 @@ pre {
 }
 
 .homeName {
+  font-family: "Roboto";
   color: #172a3dcc;
-  font-size: 5em;
+  font-size: 5rem;
   overflow-wrap: break-word;
 }
 .homeDescr {
-  color: #ffffffbb;
+  color: #172a3dcc;
   text-transform: uppercase;
-  font-family: "barlow-extralight", "barlow", "sans-serif";
+  font-family: "Roboto";
+  font-size: 1rem;
   font-weight: 200;
 }
 
@@ -153,7 +155,14 @@ pre {
 }
 
 .kranio {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  max-width: 80%;
+  align-self: center;
+}
+
+.kranio article {
+  align-self: center;
+  justify-self: center;
 }
 
 /* .kranio-background h2 {
@@ -191,7 +200,7 @@ pre {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif,";
   font-weight: 800;
   background-color: #d6eaf8; /* light blue */
 }
@@ -205,20 +214,7 @@ body {
 }
 
 .address {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.address svg {
-  align-self: center;
-  width: 10%;
-}
-
-.address p {
-  align-self: center;
-  width: 90%;
+  margin: 0.5rem;
 }
 
 .map {
@@ -358,6 +354,7 @@ body {
     margin: 1rem;
     margin-left: unset;
     margin-right: unset;
+    max-width: unset;
     flex-direction: column;
   }
 

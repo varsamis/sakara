@@ -13,22 +13,16 @@ const Contact = () => {
         <div className="map">
           <iframe src="https://en.frame.mapy.cz/s/nuleluvome" width="400" height="280" frameBorder="0"></iframe>
         </div>
-        <div className="address">
-          <>
-            <HiOutlineLocationMarker />
-            <p>
-              {texts.common.address_l1} <br /> {texts.common.address_l2}
-            </p>
-          </>
-          <>
-            <HiOutlinePhone />
-            <p>{texts.common.telephone}</p>
-          </>
-          <>
-            <HiOutlineMail />
-            <p>{texts.common.email}</p>
-          </>
-        </div>
+        <address className="address">
+          {texts.common.address_l1}
+          <br />
+          {texts.common.address_l2}
+          <br />
+          <a href={"tel:" + texts.common.telephone}>{texts.common.telephone}</a>
+          <br />
+          <a href={"mailto:" + texts.common.email}>{texts.common.email}</a>
+          <br />
+        </address>
       </section>
     </Element>
   );

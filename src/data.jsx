@@ -6,6 +6,9 @@ export const texts = {
     email: "info@sakara.cz",
   },
   en: {
+    home: {
+      descr: "Cranioshacral therapy and consaltation",
+    },
     h1: "Site Under Construction",
     h_about: "About",
     p_about: [
@@ -131,6 +134,9 @@ export const texts = {
     ],
   },
   cz: {
+    home: {
+      descr: "Kraniosakrální terapie a konzultace",
+    },
     h1: "Web Ve Výstavbě",
     h_about: "O mně",
     p_about: [
