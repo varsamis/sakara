@@ -11,10 +11,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #124d75; /* greenish-blue */
+  color: #172a3d;
 }
 a {
-  color: #124d75; /* bright blue */
+  color: #34495e; /* bright blue */
 }
 blockquote {
   background-color: #eaf2f8; /* very light blue */
@@ -217,6 +217,18 @@ body {
   margin: 0.5rem;
 }
 
+.address p {
+  margin: unset;
+  margin-bottom: 0.5rem;
+}
+.address a {
+  margin-bottom: 0.5rem;
+}
+
+.contact-name {
+  font-size: 1.5rem;
+}
+
 .map {
   flex-grow: 1;
   flex-shrink: 0;
@@ -274,6 +286,33 @@ body {
 }
 .navbar-link {
   margin: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #172a3d;
+  height: 10rem;
+  flex-flow: column;
+}
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons svg {
+  width: 2rem;
+  height: 2rem;
+  color: #d6eaf8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: unset;
+}
+
+.footer p {
+  font-weight: unset;
+  color: #d6eaf8;
 }
 
 /* Small Screen */
@@ -344,6 +383,7 @@ body {
 
   .contact {
     flex-flow: column;
+    align-items: center;
   }
 
   .address {

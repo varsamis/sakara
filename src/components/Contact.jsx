@@ -14,10 +14,9 @@ const Contact = () => {
           <iframe src="https://en.frame.mapy.cz/s/nuleluvome" width="400" height="280" frameBorder="0"></iframe>
         </div>
         <address className="address">
-          {texts.common.address_l1}
-          <br />
-          {texts.common.address_l2}
-          <br />
+          <p className="contact-name">Sabrina Karavarsami</p>
+          <p>{texts.common.address_l1}</p>
+          <p>{texts.common.address_l2}</p>
           <a href={"tel:" + texts.common.telephone}>{texts.common.telephone}</a>
           <br />
           <a href={"mailto:" + texts.common.email}>{texts.common.email}</a>
