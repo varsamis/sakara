@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { texts } from "../data";
-import sakaraIcon from "../assets/Sakara.svg";
+import SakaraIcon from "../assets/SakaraIcon.svg";
 import { Link, animateScroll } from "react-scroll";
 import { HiMenu } from "react-icons/hi";
 import LanguageSwitch from "./LanguageSwitch";
@@ -19,7 +19,7 @@ const Navbar = () => {
       <button className="navbar-toggle" onClick={toggleNav}>
         <HiMenu />
       </button>
-      <img src={sakaraIcon} alt="sk" id="sk" />
+      <img src={SakaraIcon} alt="sk" id="sk" />
 
       <div className={`navbar-list ${showNav ? "show" : ""}`}>
         {texts[selectedLanguage].links.map((link) => (

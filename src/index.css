@@ -221,9 +221,6 @@ body {
   margin: unset;
   margin-bottom: 0.5rem;
 }
-.address a {
-  margin-bottom: 0.5rem;
-}
 
 .contact-name {
   font-size: 1.5rem;
@@ -299,6 +296,7 @@ body {
 .social-icons {
   display: flex;
   gap: 1rem;
+  justify-content: space-between;
 }
 
 .social-icons svg {
@@ -310,9 +308,21 @@ body {
   font-weight: unset;
 }
 
+.social-icons img {
+  width: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* #skr-3, */
+#skr-4 {
+  /* filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg); */
+  align-self: flex-end;
+}
+
 .footer p {
   font-weight: unset;
-  color: #d6eaf8;
+  color: #838c93;
 }
 
 /* Small Screen */

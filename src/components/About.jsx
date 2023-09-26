@@ -4,7 +4,6 @@ import { Element } from "react-scroll";
 import { texts } from "../data";
 import { useGlobalContext } from "../context";
 import { HiChevronDoubleUp, HiChevronDoubleDown } from "react-icons/hi";
-import sakaraIcon from "../assets/Sakara.svg";
 import Title from "./Title";
 
 const About = () => {

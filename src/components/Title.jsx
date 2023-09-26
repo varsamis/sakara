@@ -1,11 +1,11 @@
-import sakaraIcon from "../assets/Sakara.svg";
+import SakaraIcon from "../assets/SakaraIcon.svg";
 
 const Title = (props) => {
   return (
     <h2 className="title">
-      <img src={sakaraIcon} alt="sk" id="skr" />
+      <img src={SakaraIcon} alt="sk" id="skr-1" />
       {props.text}
-      <img src={sakaraIcon} alt="sk" id="skl" />
+      <img src={SakaraIcon} alt="sk" id="skr-2" />
     </h2>
   );
 };
