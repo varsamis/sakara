@@ -107,6 +107,7 @@ export const texts = {
         { title: "Reiki - Iva Kukačková", text: "" },
       ],
     },
+    h_reviews: "Reviews",
     h_pricelist: "Pricelist",
     p_pricelist: {
       price: "CST and consultation 90 min. / 1400,-Kč",
@@ -129,8 +130,9 @@ export const texts = {
       { id: 2, url: "about", text: "About" },
       { id: 3, url: "kranio", text: "Cranioshacral therapy" },
       { id: 4, url: "qualification", text: "Qualification" },
-      { id: 5, url: "pricelist", text: "Pricelist" },
-      { id: 6, url: "contact", text: "Contact" },
+      { id: 5, url: "reviews", text: "Reviews" },
+      { id: 6, url: "pricelist", text: "Pricelist" },
+      { id: 7, url: "contact", text: "Contact" },
     ],
   },
   cz: {
@@ -233,6 +235,7 @@ export const texts = {
         { title: "Reiki - Iva Kukačková", text: "" },
       ],
     },
+    h_reviews: "Recenze",
     h_pricelist: "Ceník",
     p_pricelist: {
       price: "KST a konzultace 90 min. / 1400,-Kč",
@@ -255,8 +258,9 @@ export const texts = {
       { id: 2, url: "about", text: "O mně" },
       { id: 3, url: "kranio", text: "Kraniosakrální terapie" },
       { id: 4, url: "qualification", text: "Kvalifikace" },
-      { id: 5, url: "pricelist", text: "Ceník" },
-      { id: 6, url: "contact", text: "Kontakt" },
+      { id: 5, url: "reviews", text: "Recenze" },
+      { id: 6, url: "pricelist", text: "Ceník" },
+      { id: 7, url: "contact", text: "Kontakt" },
     ],
   },
 };

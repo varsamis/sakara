@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Qualification from "./components/Qualification";
+import Reviews from "./components/Reviews";
 import PriceList from "./components/PriceList";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Kranio />
       <Qualification />
+      <Reviews />
       <PriceList />
       <Contact />
       <Footer />

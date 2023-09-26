@@ -237,6 +237,15 @@ body {
   margin: 1rem;
 }
 
+.reviews {
+  width: 80%;
+  align-self: center;
+}
+
+.reviews-carousel img {
+  opacity: 0.5;
+}
+
 .select-lang p {
   border-color: #124d75;
 }
@@ -315,10 +324,6 @@ body {
 }
 
 /* #skr-3, */
-#skr-4 {
-  /* filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg); */
-  align-self: flex-end;
-}
 
 .footer p {
   font-weight: unset;
