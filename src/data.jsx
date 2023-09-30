@@ -1,3 +1,6 @@
+import reviews_img1 from "./assets/IMG_3309.png";
+import reviews_img2 from "./assets/IMG_4328.png";
+
 export const texts = {
   common: {
     address_l1: "Sládkova 262/7, 170 00 Praha 7",
@@ -8,6 +11,8 @@ export const texts = {
   en: {
     home: {
       descr: "craniosacral therapy, systemic individual therapy, consultation",
+      quote: `"You are not a drop in the ocean. You are the entire ocean, in a drop."`,
+      quote_name: "RUMI",
     },
     h1: "Site Under Construction",
     h_about: "About",
@@ -124,17 +129,35 @@ export const texts = {
         { title: "Webinar: The Heart Center - Etienne Peirsman", text: "" },
         {
           title:
-            "Webinar: Birth Trauma in Infancy and Early Childhood, What Children Teach Us About Ourselves - Matthew Appleto",
+            "Webinar: Birth Trauma in Infancy and Early Childhood, What Children Teach Us About Ourselves, Working with the family system - Matthew Appleton",
           text: "",
         },
+        { title: "Course: Crystal therapy", text: "" },
         { title: "Seminar: Lymphatic Drainage Massage - Boris Tichanovský", text: "" },
         { title: "Reiki - Boris Tichanovský", text: "" },
         { title: "Reiki - Iva Kukačková", text: "" },
       ],
     },
     footer_qualification:
-      "and many other personal experiences from various therapies, family constellations (140 sessions) with altered states of consciousness due to work with breath, meditations, etc.",
+      "* and many other personal experiences from various therapies, family constellations (140 sessions) with altered states of consciousness due to work with breath, meditations, etc.",
     h_reviews: "Reviews",
+    reviews: [
+      {
+        text: `Maybe about me first. I am a person whose head does not stop and is always on the run with the inability to rest. I just can't do it (or actually I couldn't). So I won't lie. Visiting Sabrina was a gift. At the same time, I was a person who takes various forms of relaxation more as something for a vacation, but simply not for everyday life. Since then I have been going regularly and many visits have passed. For me, the visits have a really relaxing and perhaps harmonizing effect. And not only the therapy itself, where one expects it, but also talking with Sabrina has a therapeutic effect.`,
+        name: `Michal T., manager`,
+        src: reviews_img1,
+      },
+      {
+        text: `I have been coming to Sabrina for therapy for almost a year now and I feel that I have to continue and further deepen my self-knowledge and personal growth and development... All this Sabrina’s therapy brings me. As a rather pragmatic person, I never stop to be amazed at the progress each treatment brings me. Thank you Sabrina! `,
+        name: `Šárka S., interior designer`,
+        src: reviews_img2,
+      },
+      {
+        text: `Sabrina has amazing hands, she understands the body, but also the soul. After each treatment, I leave with a smile from ear to ear, relaxed and with recharged "batteries". Unbelievably, I have found that with regular visits, the treatments have a positive impact on my life (family, relationships, work). I can recommend big time!`,
+        name: `Michal L., cool guy`,
+        src: reviews_img1,
+      },
+    ],
     h_pricelist: "Pricelist",
     p_pricelist: {
       price: "CST and consultation 90 min. / 1400,-Kč",
@@ -165,6 +188,8 @@ export const texts = {
   cz: {
     home: {
       descr: "kraniosakrální terapie, systemické individuální terapie, konzultace",
+      quote: `"You are not a drop in the ocean. You are the entire ocean, in a drop."`,
+      quote_name: "RUMI",
     },
     h1: "Web Ve Výstavbě",
     h_about: "O mně",
@@ -278,17 +303,35 @@ export const texts = {
         { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
         {
           title:
-            "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
+            "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných, Práce s rodinným systémem - Matthew Appleton",
           text: "",
         },
+        { title: "Kurz: Krystaloterapie", text: "" },
         { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
         { title: "Reiki - Boris Tichanovský", text: "" },
         { title: "Reiki - Iva Kukačková", text: "" },
       ],
     },
     footer_qualification:
-      "a mnoho dalších osobních zkušeností z různorodých terapií, rodinných konstelací ( 140 sezení ) se změněnými stavy vědomí díky práci s dechem, meditacemi apod.",
+      "* a mnoho dalších osobních zkušeností z různorodých terapií, např. rodinných konstelací ( 140 sezení ), zkušenosti se změněnými stavy vědomí díky práci s dechem, meditacemi apod.",
     h_reviews: "Recenze",
+    reviews: [
+      {
+        text: `Možná nejdříve o mně. Jsem člověk, kterému se hlava nezastaví a je pořád v běhu s neschopností odpočívat. Prostě to neumím (respektive neuměl jsem). Takže nebudu lhát. Návštěva u Sabriny byl dárek. Zároveň jsem byl člověk, který bere různé formy relaxu spíše jen jako něco v rámci dovolené, ale prostě ne do běžného života. Od té doby chodím pravidelně a uběhlo už mnoho návštěv. Návštěvy pro mne mají skutečně uvolňující až možná harmonizující účinek. A to nejen samotná terapie, kde to člověk očekává, ale terapeutizující účinek má i povídání se Sabrinou.`,
+        name: `Michal T., manažer`,
+        src: reviews_img1,
+      },
+      {
+        text: `K Sabrině docházím na terapii už skoro rok a cítím, že musím pokračovat a dál tím prohlubovat své sebepoznání a osobní růst a rozvoj...To vše mi tato terapie přináší a umožnuje. Jako člověk spíše pragmaticky založený, se nepřestávám podivovat nad tím, jaký posun mi každé ošetření přináší. Děkuji Sabrino!`,
+        name: `Šárka S., designérka`,
+        src: reviews_img2,
+      },
+      {
+        text: `Sabrina má úžasné ruce, rozumí tělu, ale i duši. Po každém ošetření odcházím s úsměvem od ucha k uchu, uvolněný a s dobitími “baterkami”. Ač neuvěřitelné, zjistil jsem, že při pravidelných návštěvách mají ošetření pozitivní dopad na můj život (rodina, vztahy, práce). Doporučuji všemi deseti!`,
+        name: `Michal L., cool guy`,
+        src: reviews_img1,
+      },
+    ],
     h_pricelist: "Ceník",
     p_pricelist: {
       price: "KST a konzultace 90 min. / 1400,-Kč",

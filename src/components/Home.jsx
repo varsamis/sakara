@@ -14,6 +14,10 @@ const Home = () => {
           </div>
           <div className="homeDescr">{texts[selectedLanguage].home.descr}</div>
         </div>
+        <div className="homeQuote">
+          <p>{texts[selectedLanguage].home.quote}</p>
+          <p>{texts[selectedLanguage].home.quote_name}</p>
+        </div>
       </section>
     </Element>
   );

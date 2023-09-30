@@ -101,16 +101,41 @@ pre {
 
 .homeName {
   font-family: "Roboto";
-  color: #172a3dcc;
+  color: #172a3ddd;
   font-size: 5rem;
   overflow-wrap: break-word;
 }
 .homeDescr {
-  color: #172a3dcc;
+  color: #172a3ddd;
   text-transform: uppercase;
   font-family: "Roboto";
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 800;
+}
+
+.homeQuote {
+  position: absolute;
+  display: flex;
+  top: 60%;
+  left: 75%;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  font-size: x-large;
+  font-weight: 300;
+  text-align: center;
+  /* background-color: #35ceed44; */
+  /* height: 10rem; */
+  padding: 1rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  color: #eaf2f8;
+}
+
+.homeQuote p {
+  margin: unset;
+  margin-top: 15px;
 }
 
 .about {
@@ -165,6 +190,16 @@ pre {
   justify-self: center;
 }
 
+.kranio-img {
+  height: 20rem;
+  align-self: flex-end;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 2px #083b5dbb);
+  margin: 1rem;
+}
+
 /* .kranio-background h2 {
   -webkit-text-stroke: 1px white;
 } */
@@ -182,30 +217,15 @@ pre {
 }
 
 .qualification-footer {
-  align-self: center;
+  margin-left: 3rem;
+  font-weight: 1000;
+  font-size: larger;
 }
 
 .kranio-ul {
   margin: 1rem;
   display: flex;
   flex-direction: row;
-}
-
-.custom-slide {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.text-overlay {
-  position: absolute;
-  top: 10%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 10px;
-  width: 75%;
-  height: 75%;
 }
 
 .qualification {
@@ -264,12 +284,42 @@ body {
 }
 
 .reviews {
-  width: 80%;
+  width: 100%;
   align-self: center;
 }
 
+.reviews-carousel {
+}
+
 .reviews-carousel img {
-  opacity: 0.5;
+  object-fit: cover;
+}
+
+.custom-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 40rem;
+}
+
+.text-overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 8%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  width: 60%;
+  height: 75%;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.text-overlay br {
+  margin-top: 1rem;
 }
 
 .select-lang p {

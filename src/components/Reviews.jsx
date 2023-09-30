@@ -3,8 +3,8 @@ import { Element } from "react-scroll";
 import { useGlobalContext } from "../context";
 import Title from "./Title";
 import { Carousel } from "react-responsive-carousel";
-import img1 from "../assets/IMG_3327.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Review from "./Review";
 
 const Reviews = () => {
   const { selectedLanguage } = useGlobalContext();
@@ -19,18 +19,9 @@ const Reviews = () => {
           infiniteLoop={true}
           showArrows={true}
         >
-          <div className="custom-slide">
-            <img src={img1} />
-            <p className="text-overlay">Legend 1</p>
-          </div>
-          <div>
-            <img src={img1} />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <img src={img1} />
-            <p className="legend">Legend 3</p>
-          </div>
+          {texts[selectedLanguage].reviews.map((item, i) => (
+            <Review key={i} src={item.src} text={item.text} name={item.name} />
+          ))}
         </Carousel>
       </section>
     </Element>

@@ -1,4 +1,4 @@
-import img1 from "../assets/Sabrina01aa.png";
+import img1 from "../assets/Sabrina_01.png";
 import img2 from "../assets/Sabrina_02.png";
 import { Element } from "react-scroll";
 import { texts } from "../data";

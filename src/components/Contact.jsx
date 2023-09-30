@@ -1,7 +1,6 @@
 import { Element } from "react-scroll";
 import { texts } from "../data";
 import { useGlobalContext } from "../context";
-import { HiOutlineLocationMarker, HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
 import Title from "./Title";
 
 const Contact = () => {
