@@ -13,44 +13,42 @@ const Kranio = () => {
   };
 
   return (
-    <Element name="kranio" id="kranio" className="container parallax kranio-background">
-      <div className="kranio-card">
-        <Title text={texts[selectedLanguage].h_kranio} />
-        <section className="section kranio">
-          <div className={moreCranio ? "textVisible" : "text"}>
-            {texts[selectedLanguage].p_kranio.map((p, i) => (
-              <article key={i}>
-                <p key={i}>{p}</p>
-              </article>
+    <Element name="kranio" id="kranio" className="container ">
+      <Title text={texts[selectedLanguage].h_kranio} />
+      <section className="section kranio">
+        <div className={moreCranio ? "textVisible" : "text"}>
+          {texts[selectedLanguage].p_kranio.map((p, i) => (
+            <article key={i}>
+              <p key={i}>{p}</p>
+            </article>
+          ))}
+          <div className="kranio-ul">
+            {texts[selectedLanguage].ul_kranio.map((list, i) => (
+              <div key={i}>
+                <h4 key={i}>{list.title}</h4>
+                <ul>
+                  {list.items.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
             ))}
-            <div className="kranio-ul">
-              {texts[selectedLanguage].ul_kranio.map((list, i) => (
-                <div key={i}>
-                  <h4 key={i}>{list.title}</h4>
-                  <ul>
-                    {list.items.map((item, i) => (
-                      <li key={i}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
           </div>
+        </div>
 
-          {moreCranio ? (
+        {moreCranio ? (
+          <button className="more-button" onClick={handleMoreCranioChange}>
+            <HiChevronDoubleUp />
+          </button>
+        ) : (
+          <>
+            <div className="fade-overlay"></div>
             <button className="more-button" onClick={handleMoreCranioChange}>
-              <HiChevronDoubleUp />
+              <HiChevronDoubleDown />
             </button>
-          ) : (
-            <>
-              <div className="fade-overlay"></div>
-              <button className="more-button" onClick={handleMoreCranioChange}>
-                <HiChevronDoubleDown />
-              </button>
-            </>
-          )}
-        </section>
-      </div>
+          </>
+        )}
+      </section>
     </Element>
   );
 };

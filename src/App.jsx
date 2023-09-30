@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Kranio />
       <Qualification />
+      <Kranio />
       <Reviews />
       <PriceList />
       <Contact />

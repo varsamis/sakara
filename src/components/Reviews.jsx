@@ -12,7 +12,13 @@ const Reviews = () => {
     <Element name="reviews" id="reviews" className="container">
       <Title text={texts[selectedLanguage].h_reviews} />
       <section className="section reviews">
-        <Carousel className="reviews-carousel" showThumbs={false} showStatus={false} infiniteLoop={true}>
+        <Carousel
+          className="reviews-carousel"
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop={true}
+          showArrows={true}
+        >
           <div>
             <img src={img1} />
             <p className="legend">Legend 1</p>

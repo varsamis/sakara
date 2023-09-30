@@ -147,7 +147,7 @@ pre {
   margin: 1rem;
 }
 
-.kranio-card {
+.qualification-card {
   display: flex;
   flex-flow: column;
   background-color: #d6eaf877;
@@ -169,7 +169,7 @@ pre {
   -webkit-text-stroke: 1px white;
 } */
 
-.kranio-background {
+.qualification-background {
   content: "";
   background-image: url("./assets/P7140370.png");
   background-repeat: no-repeat; /* Do not repeat the image */
