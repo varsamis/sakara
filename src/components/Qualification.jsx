@@ -11,9 +11,9 @@ const Qualification = () => {
         <Title text={texts[selectedLanguage].h_qualification} />
         <section className="section qualification" id="qualification">
           <ul>
-            <li>{texts[selectedLanguage].core_qualification.description}</li>
+            <li className="qualification-strong">{texts[selectedLanguage].kranio_qualification.description}</li>
             <ul>
-              {texts[selectedLanguage].core_qualification.items.map((item, i) => (
+              {texts[selectedLanguage].kranio_qualification.items.map((item, i) => (
                 <li key={i}>
                   <strong>{item.title}</strong>
                   <br />
@@ -21,12 +21,23 @@ const Qualification = () => {
                 </li>
               ))}
             </ul>
-            {/* <h4>{texts[selectedLanguage].other_qualification.description}</h4> */}
+
+            <li className="qualification-strong">{texts[selectedLanguage].hypnosystemic_qualification.description}</li>
+            <ul>
+              {texts[selectedLanguage].hypnosystemic_qualification.items.map((item, i) => (
+                <li key={i}>
+                  <strong>{item.title}</strong>
+                </li>
+              ))}
+            </ul>
 
             {texts[selectedLanguage].other_qualification.items.map((item, i) => (
-              <li key={item.title}>{item.title}</li>
+              <li className="qualification-strong" key={item.title}>
+                {item.title}
+              </li>
             ))}
           </ul>
+          <p className="qualification-footer">{texts[selectedLanguage].footer_qualification}</p>
         </section>
       </div>
     </Element>

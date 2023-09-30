@@ -19,9 +19,9 @@ const Reviews = () => {
           infiniteLoop={true}
           showArrows={true}
         >
-          <div>
+          <div className="custom-slide">
             <img src={img1} />
-            <p className="legend">Legend 1</p>
+            <p className="text-overlay">Legend 1</p>
           </div>
           <div>
             <img src={img1} />

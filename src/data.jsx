@@ -7,7 +7,7 @@ export const texts = {
   },
   en: {
     home: {
-      descr: "Cranioshacral therapy and consaltation",
+      descr: "craniosacral therapy, systemic individual therapy, consultation",
     },
     h1: "Site Under Construction",
     h_about: "About",
@@ -63,51 +63,77 @@ export const texts = {
       },
     ],
     h_qualification: "Qualification",
-    core_qualification: {
-      description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
+    kranio_qualification: {
+      description: "Training in Craniosacral Therapy - Radek Neškrabal",
       items: [
         {
-          title: "Ošetření příčných struktur",
-          text: "(historie a principy kraniosakrální osteopatie, anatomie a fyziologie kraniosakrálního systému, etika přístupu ke klientovi, základy psychohygieny, teorie a praxe palpace kraniosakrálního rytmu, anatomie a ošetření příčných struktur, dekomprese kosti křížové, teorie a praxe práce se spinální durou mater, útlum kraniosakrálního systému CV4)",
+          title: "Treatment of Cross Structures",
+          text: "(history and principles of craniosacral osteopathy, anatomy and physiology of the craniosacral system, ethical approach to the client, basics of psychohygiene, theory and practice of craniosacral rhythm palpation, anatomy and treatment of cross structures, sacral bone decompression, theory and practice of working with the spinal dura mater, attenuation of craniosacral system CV4)",
         },
         {
           title: "Neurocranium",
-          text: "(prohloubení dovedností práce s kraniosakrálním rytmem, anatomie a fyziologie kraniosakrálního rytmu na lebce, teorie a praxe dekomprese jednotlivých lebečních kostí: frontální, parietální, SSB, temporální, temporomandibulární kloub)",
+          text: "(deepening skills in working with the craniosacral rhythm, anatomy and physiology of craniosacral rhythm in the skull, theory and practice of decompression of individual cranial bones: frontal, parietal, SSB, temporal, temporomandibular joint)",
         },
         {
-          title: "SSB + membránový systém",
-          text: "(anatomie a fyziologie kraniálního rytmu na SSB, teorie a praxe vyšetření a ošetření 11 lézí SSB, anatomie a fyziologie kraniálního rytmu na membránovém systému, palpace a sledování rytmu na membránovém systému, ošetření membránového systému)",
+          title: "SSB + Membrane System",
+          text: "(anatomy and physiology of the cranial rhythm on the SSB, theory and practice of examining and treating 11 SSB lesions, anatomy and physiology of the cranial rhythm in the membrane system, palpation and monitoring of the rhythm in the membrane system, treatment of the membrane system)",
         },
         {
-          title: "Viscerocranium, energetický přístup ",
-          text: "(anatomie a fyziologie kraniálního rytmu na horním patře a obličejové části, vyšetření a ošetření komplexu sphenoid-maxilla-vomer-palatinum, ošetření obličejové části – zygomaticum, vyšetření a ošetření zubů, mentální detoxikace, detoxikace organismu, práce s energií - V spred)",
+          title: "Viscerocranium, Energetic Approach",
+          text: "(anatomy and physiology of the cranial rhythm in the upper and facial part, examination and treatment of the sphenoid-maxilla-vomer-palatine complex, treatment of the facial part - zygomaticum, examination and treatment of teeth, mental detoxification, body detoxification, energy work - V Spred)",
         },
         {
-          title: "Drenáž žilních splavů, komorový systém, EV 4",
-          text: "(anatomie žilních splavů, fyziologie žilních splavů, symptomy chorob, anatomie mozkových komor, fyziologie mozkových komor)",
+          title: "Venous Drainage, Ventricular System, EV 4",
+          text: "(anatomy of venous drainage, physiology of venous drainage, disease symptoms, anatomy of brain ventricles, physiology of brain ventricles)",
         },
         {
-          title: "Tělo a emoce",
-          text: "(vymezení působnosti podpůrného dialogu, etika přístupu v interakci s klientem, základy teorie psychoterapeutických přístupů, praktická cvičení, práce se zdroji, vtělení zdrojů, pociťovaný smysl, hranice a jejich rozpoznání, verbální a neverbální komunikace, stres a trauma, jak vzniká, jak ho poznat a jak předejít retraumatizaci, somatoemocionální uvolnění – teorie – praktická cvičení, cvičení ve vedení praxe s verbální podporou)",
+          title: "Body and Emotions",
+          text: "(definition of the scope of supportive dialogue, ethical approach in client interaction, fundamentals of psychotherapeutic approaches theory, practical exercises, working with resources, embodiment of resources, felt sense, boundaries and their recognition, verbal and non-verbal communication, stress and trauma, how it arises, how to recognize it, and how to prevent retraumatization, somatoemotional release - theory - practical exercises, exercises in guiding practice with verbal support)",
+        },
+      ],
+    },
+    hypnosystemic_qualification: {
+      description: "Training in Hypno-Systemic Therapy and NLP - Bhagat J. Zeilhofer",
+      items: [
+        {
+          title: "Polyvagal model according to Stephen Porges",
+          text: "",
+        },
+        {
+          title: "The work of Virginia Satir",
+          text: "",
+        },
+        {
+          title: "Hypnosystemic work according to Dr. Gunther Schmidt",
+          text: "",
+        },
+        {
+          title: "Somatic models according to Stephen Gillighan",
+          text: "",
+        },
+        {
+          title: "The work of Robert Dilts",
+          text: "",
         },
       ],
     },
     other_qualification: {
       description: "Other Qualification",
       items: [
-        { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
-        { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
-        { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
+        { title: "Advanced Seminar: Nervus Vagus and Polyvagal Approaches in CST – Inka Tichá", text: "" },
+        { title: "Webinar: The Heart Center - Etienne Peirsman", text: "" },
         {
           title:
-            "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných - Matthew Appleto",
+            "Webinar: Birth Trauma in Infancy and Early Childhood, What Children Teach Us About Ourselves - Matthew Appleto",
           text: "",
         },
-        { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
+        { title: "Seminar: Lymphatic Drainage Massage - Boris Tichanovský", text: "" },
         { title: "Reiki - Boris Tichanovský", text: "" },
         { title: "Reiki - Iva Kukačková", text: "" },
       ],
     },
+    footer_qualification:
+      "and many other personal experiences from various therapies, family constellations (140 sessions) with altered states of consciousness due to work with breath, meditations, etc.",
     h_reviews: "Reviews",
     h_pricelist: "Pricelist",
     p_pricelist: {
@@ -138,7 +164,7 @@ export const texts = {
   },
   cz: {
     home: {
-      descr: "Kraniosakrální terapie a konzultace",
+      descr: "kraniosakrální terapie, systemické individuální terapie, konzultace",
     },
     h1: "Web Ve Výstavbě",
     h_about: "O mně",
@@ -191,7 +217,7 @@ export const texts = {
       },
     ],
     h_qualification: "Kvalifikace",
-    core_qualification: {
+    kranio_qualification: {
       description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
       items: [
         {
@@ -220,10 +246,34 @@ export const texts = {
         },
       ],
     },
+    hypnosystemic_qualification: {
+      description: "Výcvik v hypno-systemické terapii a NLP - Bhagat J. Zeilhofer",
+      items: [
+        {
+          title: "Polyvagální model podle Stephena Porgese",
+          text: "",
+        },
+        {
+          title: "Práce Virginie Satir",
+          text: "",
+        },
+        {
+          title: "Hypnosystemická práce podle Dr. Gunthera Schmidta",
+          text: "",
+        },
+        {
+          title: "Somatické modely podle Stephena Gillighana",
+          text: "",
+        },
+        {
+          title: "Práce Roberta Diltse",
+          text: "",
+        },
+      ],
+    },
     other_qualification: {
       description: "Další kvalifikace",
       items: [
-        { title: "Výcvik v hypnosystemické terapii - Bhagat J. Zeilhofer", text: "" },
         { title: "Nadstavbový seminář: Nervus Vagus a polyvagalní přístupy v CST – Inka Tichá", text: "" },
         { title: "Webinář: Osrdečník - Etienne Peirsman", text: "" },
         {
@@ -236,6 +286,8 @@ export const texts = {
         { title: "Reiki - Iva Kukačková", text: "" },
       ],
     },
+    footer_qualification:
+      "a mnoho dalších osobních zkušeností z různorodých terapií, rodinných konstelací ( 140 sezení ) se změněnými stavy vědomí díky práci s dechem, meditacemi apod.",
     h_reviews: "Recenze",
     h_pricelist: "Ceník",
     p_pricelist: {
