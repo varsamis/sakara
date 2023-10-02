@@ -457,6 +457,11 @@ body {
     font-size: 3em;
   }
 
+  .homeQuote {
+    top: 60%;
+    left: 30%;
+  }
+
   .about {
     flex-direction: column;
   }
@@ -513,6 +518,10 @@ body {
     border: 0px;
     background-color: transparent;
     align-self: center;
+  }
+
+  .text-overlay {
+    font-size: 1rem;
   }
 
   .fade-overlay {
