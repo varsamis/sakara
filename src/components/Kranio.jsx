@@ -34,8 +34,8 @@ const Kranio = () => {
                 </ul>
               </div>
             ))}
-            <img className="kranio-img" src={img1} alt="crystal" />
           </div>
+          <img className="kranio-img" src={img1} alt="crystal" />
         </div>
 
         {moreCranio ? (

@@ -1,5 +1,8 @@
-import reviews_img1 from "./assets/IMG_3309.png";
-import reviews_img2 from "./assets/IMG_4328.png";
+import reviews_img1 from "./assets/reviews1.png";
+import reviews_img2 from "./assets/reviews2.png";
+import reviews_img3 from "./assets/reviews3.png";
+import reviews_img4 from "./assets/reviews4.png";
+import reviews_img5 from "./assets/reviews5.png";
 
 export const texts = {
   common: {
@@ -144,8 +147,8 @@ export const texts = {
     h_reviews: "Reviews",
     reviews: [
       {
-        text: `Maybe about me first. I am a person whose head does not stop and is always on the run with the inability to rest. I just can't do it (or actually I couldn't). So I won't lie. Visiting Sabrina was a gift. At the same time, I was a person who takes various forms of relaxation more as something for a vacation, but simply not for everyday life. Since then I have been going regularly and many visits have passed. For me, the visits have a really relaxing and perhaps harmonizing effect. And not only the therapy itself, where one expects it, but also talking with Sabrina has a therapeutic effect.`,
-        name: `Michal T., manager`,
+        text: `Dear Sabrina, thank you for the treatment, which in the difficult period I am currently going through, allowed me to finally take a deep breath and gave me the capacity to take the next step that is needed. Craniosacral therapy has actually turned my life upside down, and step by step I'm getting to where I feel better and better, both physically and mentally. During our last treatment I felt a listening and accepting space full of respect for all my topics. What followed was my deep relaxation and a feeling of lightness, as if something I no longer needed was leaving me. It gave me a lot of energy, I reached for somewhere "home". After leaving you I am always amused that "the world seems a pretty friendly and safe place to live in".`,
+        name: `Michaela V., therapist`,
         src: reviews_img1,
       },
       {
@@ -154,9 +157,19 @@ export const texts = {
         src: reviews_img2,
       },
       {
+        text: `I went to Sabrina for therapy due to stress that was even starting to show physical symptoms. Therapy was very effective for me from even first sessions on and Im continuing, regularly once a months. The stress symptoms are completely gone and I feel really way better.`,
+        name: `Mirka L., work in finance`,
+        src: reviews_img3,
+      },
+      {
+        text: `Maybe about me first. I am a person whose head does not stop and is always on the run with the inability to rest. I just can't do it (or actually I couldn't). So I won't lie. Visiting Sabrina was a gift. At the same time, I was a person who takes various forms of relaxation more as something for a vacation, but simply not for everyday life. Since then I have been going regularly and many visits have passed. For me, the visits have a really relaxing and perhaps harmonizing effect. And not only the therapy itself, where one expects it, but also talking with Sabrina has a therapeutic effect.`,
+        name: `Michal T., marketing manager`,
+        src: reviews_img4,
+      },
+      {
         text: `Sabrina has amazing hands, she understands the body, but also the soul. After each treatment, I leave with a smile from ear to ear, relaxed and with recharged "batteries". Unbelievably, I have found that with regular visits, the treatments have a positive impact on my life (family, relationships, work). I can recommend big time!`,
-        name: `Michal L., cool guy`,
-        src: reviews_img1,
+        name: `Michal L., energy scheduler`,
+        src: reviews_img5,
       },
     ],
     h_pricelist: "Pricelist",
@@ -318,8 +331,9 @@ export const texts = {
     h_reviews: "Recenze",
     reviews: [
       {
-        text: `Možná nejdříve o mně. Jsem člověk, kterému se hlava nezastaví a je pořád v běhu s neschopností odpočívat. Prostě to neumím (respektive neuměl jsem). Takže nebudu lhát. Návštěva u Sabriny byl dárek. Zároveň jsem byl člověk, který bere různé formy relaxu spíše jen jako něco v rámci dovolené, ale prostě ne do běžného života. Od té doby chodím pravidelně a uběhlo už mnoho návštěv. Návštěvy pro mne mají skutečně uvolňující až možná harmonizující účinek. A to nejen samotná terapie, kde to člověk očekává, ale terapeutizující účinek má i povídání se Sabrinou.`,
-        name: `Michal T., manažer`,
+        text: `Milá Sabrino,
+        děkuji ti za ošetření, které mi v náročném období, kterým momentálně procházím, dovolilo se konečně pořádně nadechnout a dodalo mi kapacitu udělat další krok, který je třeba. Kraniosakrální terapie mi vlastně obrátila život naruby a postupnými kroky jdu tam, kde je mi líp a líp, jak po těle, tak na duši. Během našeho posledního ošetření na lehátku jsem vnímala naslouchající a přijímající prostor plný respektu ke všem mým tématům. Následovalo moje hluboké uvolnění a pocit lehkosti, jakoby mě opouštělo něco, co už nepotřebuji. Dodalo mi to kopec energie, sáhla jsem si kamsi „domů“. Po odchodu od tebe mě vždy pobaví, že mi „svět připadá jako docela přátelské a bezpečné místo k životu“.`,
+        name: `Michaela V., terapeut`,
         src: reviews_img1,
       },
       {
@@ -328,9 +342,19 @@ export const texts = {
         src: reviews_img2,
       },
       {
+        text: `Šla jsem k Sabrině na terapii kvůli stresu, který se dokonce začal projevovat fyzickými příznaky. Terapie byla pro mne velmi účinná již od prvních sezení a nyní pokračuji pravidelně jednou měsíčně. Příznaky stresu zcela vymizely a já se cítím opravdu mnohem lépe.`,
+        name: `Mirka L., finanční sektor`,
+        src: reviews_img3,
+      },
+      {
+        text: `Možná nejdříve o mně. Jsem člověk, kterému se hlava nezastaví a je pořád v běhu s neschopností odpočívat. Prostě to neumím (respektive neuměl jsem). Takže nebudu lhát. Návštěva u Sabriny byl dárek. Zároveň jsem byl člověk, který bere různé formy relaxu spíše jen jako něco v rámci dovolené, ale prostě ne do běžného života. Od té doby chodím pravidelně a uběhlo už mnoho návštěv. Návštěvy pro mne mají skutečně uvolňující až možná harmonizující účinek. A to nejen samotná terapie, kde to člověk očekává, ale terapeutizující účinek má i povídání se Sabrinou.`,
+        name: `Michal T., marketingový manažer`,
+        src: reviews_img4,
+      },
+      {
         text: `Sabrina má úžasné ruce, rozumí tělu, ale i duši. Po každém ošetření odcházím s úsměvem od ucha k uchu, uvolněný a s dobitími “baterkami”. Ač neuvěřitelné, zjistil jsem, že při pravidelných návštěvách mají ošetření pozitivní dopad na můj život (rodina, vztahy, práce). Doporučuji všemi deseti!`,
-        name: `Michal L., cool guy`,
-        src: reviews_img1,
+        name: `Michal L., plánovač v energetice`,
+        src: reviews_img5,
       },
     ],
     h_pricelist: "Ceník",

@@ -14,8 +14,10 @@ const Contact = () => {
         </div>
         <address className="address">
           <p className="contact-name">Sabrina Karavarsami</p>
-          <p>{texts.common.address_l1}</p>
-          <p>{texts.common.address_l2}</p>
+          <a href={texts.common.location} target="_blank">
+            <p>{texts.common.address_l1}</p>
+            <p>{texts.common.address_l2}</p>
+          </a>
 
           <p>
             <a href={"tel:" + texts.common.telephone}>{texts.common.telephone}</a>
