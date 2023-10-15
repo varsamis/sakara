@@ -8,10 +8,20 @@ const AppContext = (props) => {
   const [selectedLanguage, setSelectedLanguage] = useState("cz");
   const [moreAbout, setMoreAbout] = useState(false);
   const [moreCranio, setMoreCranio] = useState(false);
+  const [moreQualification, setMoreQualification] = useState(false);
 
   return (
     <GlobalContext.Provider
-      value={{ selectedLanguage, setSelectedLanguage, moreAbout, setMoreAbout, moreCranio, setMoreCranio }}
+      value={{
+        selectedLanguage,
+        setSelectedLanguage,
+        moreAbout,
+        setMoreAbout,
+        moreCranio,
+        setMoreCranio,
+        moreQualification,
+        setMoreQualification,
+      }}
     >
       {props.children}
     </GlobalContext.Provider>

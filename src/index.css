@@ -139,7 +139,7 @@ pre {
 }
 
 .about {
-  height: 500px;
+  height: 700px;
   gap: 1rem;
   flex-direction: row;
   justify-content: space-evenly;
@@ -150,7 +150,6 @@ pre {
   flex-flow: column;
   outline: 1px solid #124d75;
   border-radius: 5px;
-  height: fit-content;
   align-self: center;
 }
 
