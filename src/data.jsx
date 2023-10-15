@@ -25,7 +25,7 @@ export const texts = {
       `The important men in my life, my father and my husband, both come from the Balkans, to which I am also connected, especially with my old and exceptional friend - the sea. The sea, on whose shores one can feel unity and non-duality, the sea is neither good nor bad, the sea just is. The sea, which was an important part of my childhood and always helped me to calm down internally and realize that there is something present with us that we are not able to understand with our minds, and that it is something beyond everything we know and comprehend.`,
       `For many years I lived in beautiful and interesting places in the world, which influenced me with their unique energy and helped me to connect with my inner self and with who I am and what I am doing here. I also understood what and why is happening in my life and that I create my own reality and I no longer have to be a victim of destiny, programs from childhood, family patterns etc., but a creator who knows that we did not come into the world to suffer, but to live in joy, to explore and learn. Music and dance have also helped me to connect with my inner world all my life. I play the oriental frame drum and sing, the rhythm and amazing sound of the drum is a beautiful and healing gift for which I am very grateful.`,
     ],
-    h_kranio: "Cranioshacral therapy",
+    h_kranio: "Craniosacral therapy",
     p_kranio: [
       `Craniosacral Therapy (CST) is a gentle, hands-on method of evaluating and enhancing the functioning of a physiological body system called the craniosacral system - comprised of the membranes and cerebrospinal fluid that surround and protect the brain and spinal cord. Using a soft touch generally no greater than 5 grams, practitioners release restrictions in the craniosacral system, which has been shown to improve the functioning of the central nervous system, as well as many other systems of the body, such as digestive, musculoskeletal, respiratory, circulatory, and more. CST has also been shown to help with the physical components related to such somatic conditions as Post Traumatic Stress, depression and anxiety.`,
       `By facilitating the body's natural and innate healing processes, CST is increasingly used as a preventive health measure for its ability to bolster resistance to disease, and has been shown to be beneficial for people seeking help with a wide range of healthcare challenges and symptoms.`,
@@ -143,32 +143,32 @@ export const texts = {
       ],
     },
     footer_qualification:
-      "* and many other personal experiences from various therapies, family constellations (140 sessions) with altered states of consciousness due to work with breath, meditations, etc.",
+      "* and many other personal experiences from various therapies, family constellations (140 sessions) with altered states of consciousness due to work with breath, meditations, crystals etc.",
     h_reviews: "Reviews",
     reviews: [
       {
         text: `Dear Sabrina, thank you for the treatment, which in the difficult period I am currently going through, allowed me to finally take a deep breath and gave me the capacity to take the next step that is needed. Craniosacral therapy has actually turned my life upside down, and step by step I'm getting to where I feel better and better, both physically and mentally. During our last treatment I felt a listening and accepting space full of respect for all my topics. What followed was my deep relaxation and a feeling of lightness, as if something I no longer needed was leaving me. It gave me a lot of energy, I reached for somewhere "home". After leaving you I am always amused that "the world seems a pretty friendly and safe place to live in".`,
-        name: `Michaela V., therapist`,
+        name: `Michaela V. - therapist`,
         src: reviews_img1,
       },
       {
         text: `I have been coming to Sabrina for therapy for almost a year now and I feel that I have to continue and further deepen my self-knowledge and personal growth and development... All this Sabrina’s therapy brings me. As a rather pragmatic person, I never stop to be amazed at the progress each treatment brings me. Thank you Sabrina! `,
-        name: `Šárka S., interior designer`,
+        name: `Šárka S. - interior designer`,
         src: reviews_img2,
       },
       {
         text: `I went to Sabrina for therapy due to stress that was even starting to show physical symptoms. Therapy was very effective for me from even first sessions on and Im continuing, regularly once a months. The stress symptoms are completely gone and I feel really way better.`,
-        name: `Mirka L., work in finance`,
+        name: `Mirka L. - work in finance`,
         src: reviews_img3,
       },
       {
         text: `Maybe about me first. I am a person whose head does not stop and is always on the run with the inability to rest. I just can't do it (or actually I couldn't). So I won't lie. Visiting Sabrina was a gift. At the same time, I was a person who takes various forms of relaxation more as something for a vacation, but simply not for everyday life. Since then I have been going regularly and many visits have passed. For me, the visits have a really relaxing and perhaps harmonizing effect. And not only the therapy itself, where one expects it, but also talking with Sabrina has a therapeutic effect.`,
-        name: `Michal T., marketing manager`,
+        name: `Michal T. - marketing manager`,
         src: reviews_img4,
       },
       {
         text: `Sabrina has amazing hands, she understands the body, but also the soul. After each treatment, I leave with a smile from ear to ear, relaxed and with recharged "batteries". Unbelievably, I have found that with regular visits, the treatments have a positive impact on my life (family, relationships, work). I can recommend big time!`,
-        name: `Michal L., energy scheduler`,
+        name: `Michal L. - energy scheduler`,
         src: reviews_img5,
       },
     ],
@@ -193,7 +193,7 @@ export const texts = {
       { id: 1, url: "home", text: "Home" },
       { id: 2, url: "about", text: "About" },
       { id: 3, url: "qualification", text: "Qualification" },
-      { id: 4, url: "kranio", text: "Cranioshacral therapy" },
+      { id: 4, url: "kranio", text: "Craniosacral therapy" },
       { id: 5, url: "reviews", text: "Reviews" },
       { id: 6, url: "pricelist", text: "Pricelist" },
       { id: 7, url: "contact", text: "Contact" },
@@ -327,33 +327,33 @@ export const texts = {
       ],
     },
     footer_qualification:
-      "* a mnoho dalších osobních zkušeností z různorodých terapií, např. rodinných konstelací ( 140 sezení ), zkušenosti se změněnými stavy vědomí díky práci s dechem, meditacemi apod.",
+      "* a mnoho dalších osobních zkušeností z různorodých terapií, např. rodinných konstelací ( 140 sezení ), zkušenosti se změněnými stavy vědomí díky práci s dechem, meditacemi, krystaly apod.",
     h_reviews: "Recenze",
     reviews: [
       {
         text: `Milá Sabrino,
         děkuji ti za ošetření, které mi v náročném období, kterým momentálně procházím, dovolilo se konečně pořádně nadechnout a dodalo mi kapacitu udělat další krok, který je třeba. Kraniosakrální terapie mi vlastně obrátila život naruby a postupnými kroky jdu tam, kde je mi líp a líp, jak po těle, tak na duši. Během našeho posledního ošetření na lehátku jsem vnímala naslouchající a přijímající prostor plný respektu ke všem mým tématům. Následovalo moje hluboké uvolnění a pocit lehkosti, jakoby mě opouštělo něco, co už nepotřebuji. Dodalo mi to kopec energie, sáhla jsem si kamsi „domů“. Po odchodu od tebe mě vždy pobaví, že mi „svět připadá jako docela přátelské a bezpečné místo k životu“.`,
-        name: `Michaela V., terapeut`,
+        name: `Michaela V. - terapeut`,
         src: reviews_img1,
       },
       {
         text: `K Sabrině docházím na terapii už skoro rok a cítím, že musím pokračovat a dál tím prohlubovat své sebepoznání a osobní růst a rozvoj...To vše mi tato terapie přináší a umožnuje. Jako člověk spíše pragmaticky založený, se nepřestávám podivovat nad tím, jaký posun mi každé ošetření přináší. Děkuji Sabrino!`,
-        name: `Šárka S., designérka`,
+        name: `Šárka S. - designérka`,
         src: reviews_img2,
       },
       {
         text: `Šla jsem k Sabrině na terapii kvůli stresu, který se dokonce začal projevovat fyzickými příznaky. Terapie byla pro mne velmi účinná již od prvních sezení a nyní pokračuji pravidelně jednou měsíčně. Příznaky stresu zcela vymizely a já se cítím opravdu mnohem lépe.`,
-        name: `Mirka L., finanční sektor`,
+        name: `Mirka L. - finanční sektor`,
         src: reviews_img3,
       },
       {
         text: `Možná nejdříve o mně. Jsem člověk, kterému se hlava nezastaví a je pořád v běhu s neschopností odpočívat. Prostě to neumím (respektive neuměl jsem). Takže nebudu lhát. Návštěva u Sabriny byl dárek. Zároveň jsem byl člověk, který bere různé formy relaxu spíše jen jako něco v rámci dovolené, ale prostě ne do běžného života. Od té doby chodím pravidelně a uběhlo už mnoho návštěv. Návštěvy pro mne mají skutečně uvolňující až možná harmonizující účinek. A to nejen samotná terapie, kde to člověk očekává, ale terapeutizující účinek má i povídání se Sabrinou.`,
-        name: `Michal T., marketingový manažer`,
+        name: `Michal T. - marketingový manažer`,
         src: reviews_img4,
       },
       {
-        text: `Sabrina má úžasné ruce, rozumí tělu, ale i duši. Po každém ošetření odcházím s úsměvem od ucha k uchu, uvolněný a s dobitími “baterkami”. Ač neuvěřitelné, zjistil jsem, že při pravidelných návštěvách mají ošetření pozitivní dopad na můj život (rodina, vztahy, práce). Doporučuji všemi deseti!`,
-        name: `Michal L., plánovač v energetice`,
+        text: `Sabrina má úžasné ruce, rozumí tělu, ale i duši. Po každém ošetření odcházím s úsměvem od ucha k uchu, uvolněný a s dobitými “baterkami”. Ač neuvěřitelné, zjistil jsem, že při pravidelných návštěvách mají ošetření pozitivní dopad na můj život (rodina, vztahy, práce). Doporučuji všemi deseti!`,
+        name: `Michal L. - plánovač v energetice`,
         src: reviews_img5,
       },
     ],
