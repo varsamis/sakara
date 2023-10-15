@@ -22,7 +22,7 @@ export const texts = {
     h_about: "About",
     p_about: [
       `I love my life and the journey I've taken so far and even though I've been down in my life more than once and have reached the rock bottom, every moment has had its meaning and I'm grateful for it. For over 15 years, my passion has been exploring different holistic therapeutic approaches and methods that can enable us to live in harmony and joy. In my frequent travels to remote and beautiful places in the world, I realized that there are no coincidences or accidents and what happens to us in our life is a message from Life - God, the Universe, etc. we all perceive "IT" differently. A message that can be worked with and if we learn how to understand those messages of Life, we will receive a wonderful tool how to achieve to live in harmony, contentment and love. Sometimes these messages are quite hard to understand and I have found excellent help precisely in therapies that can help us with the "translation".`,
-      `The important men in my life, my father and my husband, both come from the Balkans, to which I am also connected, especially with my old and exceptional friend - the sea. The sea, on whose shores one can feel unity and non-duality, the sea is neither good nor bad, the sea just is. The sea, which was an important part of my childhood and always helped me to calm down internally and realize that there is something present with us that we are not able to understand with our minds, and that it is something beyond everything we know and comprehend.`,
+      `My father and my husband both come from the Balkans, to which I am also connected, especially with my old and exceptional friend - the sea. The sea, on whose shores one can feel unity and non-duality, the sea is neither good nor bad, the sea just is. The sea, which was an important part of my childhood and always helped me to calm down internally and realize that there is something present with us that we are not able to understand with our minds, and that it is something beyond everything we know and comprehend.`,
       `For many years I lived in beautiful and interesting places in the world, which influenced me with their unique energy and helped me to connect with my inner self and with who I am and what I am doing here. I also understood what and why is happening in my life and that I create my own reality and I no longer have to be a victim of destiny, programs from childhood, family patterns etc., but a creator who knows that we did not come into the world to suffer, but to live in joy, to explore and learn. Music and dance have also helped me to connect with my inner world all my life. I play the oriental frame drum and sing, the rhythm and amazing sound of the drum is a beautiful and healing gift for which I am very grateful.`,
     ],
     h_kranio: "Craniosacral therapy",
@@ -30,6 +30,7 @@ export const texts = {
       `Craniosacral Therapy (CST) is a gentle, hands-on method of evaluating and enhancing the functioning of a physiological body system called the craniosacral system - comprised of the membranes and cerebrospinal fluid that surround and protect the brain and spinal cord. Using a soft touch generally no greater than 5 grams, practitioners release restrictions in the craniosacral system, which has been shown to improve the functioning of the central nervous system, as well as many other systems of the body, such as digestive, musculoskeletal, respiratory, circulatory, and more. CST has also been shown to help with the physical components related to such somatic conditions as Post Traumatic Stress, depression and anxiety.`,
       `By facilitating the body's natural and innate healing processes, CST is increasingly used as a preventive health measure for its ability to bolster resistance to disease, and has been shown to be beneficial for people seeking help with a wide range of healthcare challenges and symptoms.`,
     ],
+    a_kranio_text: `Pro více informací.`,
     ul_kranio: [
       {
         title: "A few examples of what CST is suitable for:",
@@ -72,6 +73,7 @@ export const texts = {
       },
     ],
     h_qualification: "Qualification",
+    a_qualification_text: "* Member of Czech craniosacral association.",
     kranio_qualification: {
       description: "Training in Craniosacral Therapy - Radek Neškrabal",
       items: [
@@ -136,10 +138,10 @@ export const texts = {
             "Webinar: Birth Trauma in Infancy and Early Childhood, What Children Teach Us About Ourselves, Working with the family system - Matthew Appleton",
           text: "",
         },
-        { title: "Course: Crystal therapy", text: "" },
         { title: "Seminar: Lymphatic Drainage Massage - Boris Tichanovský", text: "" },
         { title: "Reiki - Boris Tichanovský", text: "" },
         { title: "Reiki - Iva Kukačková", text: "" },
+        { title: "Course: Crystal therapy", text: "" },
       ],
     },
     footer_qualification:
@@ -209,7 +211,7 @@ export const texts = {
     h_about: "O mně",
     p_about: [
       `Miluji svůj život, cestu po které jdu, a i když jsem se nejednou ocitla na pomyslném dně, každý okamžik měl svůj význam a jsem za něj vděčná. Přes 15 let je mou vášní zkoumání různých celostních terapeutických přístupů a metod, které nám mohou umožnit žít v harmonii a radosti. Na svých cestách po odlehlých a krásných místech světa, jsem si uvědomila, že náhody ani nehody neexistují, že to co se mi v životě děje, je vzkazem od Života – Boha, Vesmíru, každý “TO” vnímáme jinak. Vzkazem, se kterým je možné pracovat a pokud se naučíme rozumět řeči a vzkazům Života, dostaneme úžasný nástroj k tomu, jak žít v harmonii, spokojenosti a lásce. Někdy jsou tyto vzkazy dost nesrozumitelné a já jsem našla výbornou pomoc právě v terapiích, které nám mohou s “překladem” pomoci. Jednou z takovýchto úžasných metod je kraniosakrální terapie, která nám pomáhá se propojit se Zdravím, které je přítomné v každém z nás a za všech okolností.`,
-      `Důležití muži mého života, můj otec a můj muž, jsou oba z Balkánu, s kterým jsem propojená i já a zvláště pak s mým odvěkým a vyjímečným přítelem a tím je moře. Moře, na jehož břehu je možné zavnímat jednotu a nedualitu, moře není ani hodné ani zlé, moře jen je. Moře, které bylo důležitou součástí mého dětství a které mi vždy pomáhalo se vnitřně zklidnit a zavnímat, že je tu s námi přítomno něco, co nejsme schopni pochopit svou myslí a že to něco přesahuje vše co známe a je to tak dobře.`,
+      `Můj otec a můj muž jsou oba z Balkánu, s kterým jsem propojená i já a zvláště pak s mým odvěkým a vyjímečným přítelem a tím je moře. Moře, na jehož břehu je možné zavnímat jednotu a nedualitu, moře není ani hodné ani zlé, moře jen je. Moře, které bylo důležitou součástí mého dětství a které mi vždy pomáhalo se vnitřně zklidnit a zavnímat, že je tu s námi přítomno něco, co nejsme schopni pochopit svou myslí a že to něco přesahuje vše co známe a je to tak dobře.`,
       `Dlouhá léta jsem žila na krásných a zajímavých místech světa, která mne ovlivnila svou jedinečnou energií a pomohla mi se propojit sama se sebou, s tím kdo jsem a co tu dělám a pochopit, že je důležité žít co nejvíce v přítomnosti, svými myšlenkami tady a teď, si tvoříme budoucnost a je na nás, jak bude vypadat. Pochopila jsem, že si svou vlastní realitu tvořím z největší části sama a už nemusím být obětí osudu, programů z dětství, rodinných vzorců apod., ale tvůrcem, který ví, že na svět nepřišel trpět, ale radovat se, poznávat a učit se. K propojení se s mým vnitřním světem mi celý život pomáha i hudba a tanec. Hraju na orientální rámový buben a zpívám, rytmus a úžasný zvuk bubnu je krásný a léčebný dar, za který jsem moc vděčná.`,
     ],
     h_kranio: "Kraniosakrální terapie",
@@ -219,6 +221,7 @@ export const texts = {
       `Pomáhá nám propojit se se svými potřebami, objevit respekt vůči svému tělu a získat nadhled v každodenních situacích. Níže uvádím pár příkladů na co se KST zaměřuje a s čím mimo jiné pracuje. Pokud se chcete dozvědět více o této úžasné holistické metodě, její historii a účincích, podívejte se na www.kranio.eu.`,
       `Při KST se dostáváme do kontaktu s podstatou lidské existence. To je významné z několika důvodů. Na fyzické úrovni navazujeme vztah s fyziologickým jádrem těla, které má na starost souhru všech tělesných funkcí. Na úrovni psychiky, se dostáváme do kontaktu s psychologickým jádrem, tzn.tím jak zpracováváme naše zkušenosti a jak se vztahujeme k minulosti. A konečně se dostáváme do kontaktu i s duchovní podstatou rezonující se smyslem života jako takového.`,
     ],
+    a_kranio_text: `Pro více informací.`,
     ul_kranio: [
       {
         title: "Pár příkladů na co je KST vhodná",
@@ -256,6 +259,7 @@ export const texts = {
       },
     ],
     h_qualification: "Kvalifikace",
+    a_qualification_text: "* Členka České kraniosakrální asociace",
     kranio_qualification: {
       description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
       items: [
@@ -320,10 +324,10 @@ export const texts = {
             "Webinář: Traumata z porodu v kojeneckém věku a pozdějším dětství, Co nás děti učí o nás samotných, Práce s rodinným systémem - Matthew Appleton",
           text: "",
         },
-        { title: "Kurz: Krystaloterapie", text: "" },
         { title: "Seminář: Lymfodrenážní masáž - Boris Tichanovský", text: "" },
         { title: "Reiki - Boris Tichanovský", text: "" },
         { title: "Reiki - Iva Kukačková", text: "" },
+        { title: "Kurz: Krystaloterapie", text: "" },
       ],
     },
     footer_qualification:

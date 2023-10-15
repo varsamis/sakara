@@ -28,7 +28,10 @@ const Qualification = () => {
                   </li>
                 ))}
               </ul>
-
+              <a href="https://www.kranio.eu/sabrina-karavarsami/" target="_blank">
+                {" "}
+                {texts[selectedLanguage].a_qualification_text}
+              </a>
               <li className="qualification-strong">
                 {texts[selectedLanguage].hypnosystemic_qualification.description}
               </li>

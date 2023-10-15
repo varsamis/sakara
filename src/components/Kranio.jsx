@@ -3,7 +3,6 @@ import { texts } from "../data";
 import { useGlobalContext } from "../context";
 import { HiChevronDoubleUp, HiChevronDoubleDown } from "react-icons/hi";
 import Title from "./Title";
-import img1 from "../assets/IMG_4436.png";
 
 const Kranio = () => {
   const { selectedLanguage, moreCranio, setMoreCranio } = useGlobalContext();
@@ -24,6 +23,9 @@ const Kranio = () => {
                 <p key={i}>{p}</p>
               </article>
             ))}
+            <a href="https://www.kranio.eu/kraniosakralni-terapie/" target="_blank">
+              {texts[selectedLanguage].a_kranio_text}
+            </a>
             <div className="kranio-ul">
               {texts[selectedLanguage].ul_kranio.map((list, i) => (
                 <div key={i}>
@@ -36,7 +38,6 @@ const Kranio = () => {
                 </div>
               ))}
             </div>
-            <img className="kranio-img" src={img1} alt="crystal" />
           </div>
 
           {moreCranio ? (
