@@ -204,7 +204,7 @@ export const texts = {
   cz: {
     home: {
       descr: "kraniosakrální terapie, systemické individuální terapie, konzultace",
-      quote: `"You are not a drop in the ocean. You are the entire ocean, in a drop."`,
+      quote: `"Nejsi kapkou v oceánu. Jsi celým oceánem v kapce."`,
       quote_name: "RUMI",
     },
     h1: "Web Ve Výstavbě",

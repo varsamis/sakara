@@ -121,7 +121,7 @@ pre {
 .homeQuote {
   position: absolute;
   display: flex;
-  top: 33rem;
+  top: 30rem;
   left: 70rem;
   align-items: center;
   justify-content: center;
@@ -380,6 +380,25 @@ body {
   font-weight: 400;
 }
 
+.carousel.carousel-slider .control-arrow {
+  width: 10rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.carousel .control-prev.control-arrow::before {
+  border-right: 24px solid #fff;
+}
+
+.carousel .control-next.control-arrow::before {
+  border-left: 24px solid #fff;
+}
+
+.carousel .control-arrow::before,
+.carousel.carousel-slider .control-arrow::before {
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+}
+
 .text-overlay br {
   margin-top: 1rem;
 }
@@ -603,6 +622,24 @@ body {
 
   .text-overlay {
     font-size: 1rem;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    width: unset;
+  }
+
+  .carousel .control-prev.control-arrow::before .control-next.control-arrow::before {
+    border-right: 8px solid #fff;
+  }
+
+  .carousel .control-next.control-arrow::before {
+    border-left: 8px solid #fff;
+  }
+
+  .carousel .control-arrow::before,
+  .carousel.carousel-slider .control-arrow::before {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
   }
 
   .fade-overlay {
