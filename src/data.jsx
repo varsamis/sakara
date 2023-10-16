@@ -19,7 +19,7 @@ export const texts = {
       quote_name: "RUMI",
     },
     h1: "Site Under Construction",
-    h_about: "About",
+    h_about: "About me",
     p_about: [
       `I love my life and the journey I've taken so far and even though I've been down in my life more than once and have reached the rock bottom, every moment has had its meaning and I'm grateful for it. For over 15 years, my passion has been exploring different holistic therapeutic approaches and methods that can enable us to live in harmony and joy. In my frequent travels to remote and beautiful places in the world, I realized that there are no coincidences or accidents and what happens to us in our life is a message from Life - God, the Universe, etc. we all perceive "IT" differently. A message that can be worked with and if we learn how to understand those messages of Life, we will receive a wonderful tool how to achieve to live in harmony, contentment and love. Sometimes these messages are quite hard to understand and I have found excellent help precisely in therapies that can help us with the "translation".`,
       `My father and my husband both come from the Balkans, to which I am also connected, especially with my old and exceptional friend - the sea. The sea, on whose shores one can feel unity and non-duality, the sea is neither good nor bad, the sea just is. The sea, which was an important part of my childhood and always helped me to calm down internally and realize that there is something present with us that we are not able to understand with our minds, and that it is something beyond everything we know and comprehend.`,
@@ -30,7 +30,7 @@ export const texts = {
       `Craniosacral Therapy (CST) is a gentle, hands-on method of evaluating and enhancing the functioning of a physiological body system called the craniosacral system - comprised of the membranes and cerebrospinal fluid that surround and protect the brain and spinal cord. Using a soft touch generally no greater than 5 grams, practitioners release restrictions in the craniosacral system, which has been shown to improve the functioning of the central nervous system, as well as many other systems of the body, such as digestive, musculoskeletal, respiratory, circulatory, and more. CST has also been shown to help with the physical components related to such somatic conditions as Post Traumatic Stress, depression and anxiety.`,
       `By facilitating the body's natural and innate healing processes, CST is increasingly used as a preventive health measure for its ability to bolster resistance to disease, and has been shown to be beneficial for people seeking help with a wide range of healthcare challenges and symptoms.`,
     ],
-    a_kranio_text: `Pro více informací.`,
+    a_kranio_text: `For more information.`,
     ul_kranio: [
       {
         title: "A few examples of what CST is suitable for:",
@@ -73,7 +73,7 @@ export const texts = {
       },
     ],
     h_qualification: "Qualification",
-    a_qualification_text: "* Member of Czech craniosacral association.",
+    a_qualification_text: "* member of Czech craniosacral association.",
     kranio_qualification: {
       description: "Training in Craniosacral Therapy - Radek Neškrabal",
       items: [
@@ -193,7 +193,7 @@ export const texts = {
     error: "Error sending message:",
     links: [
       { id: 1, url: "home", text: "Home" },
-      { id: 2, url: "about", text: "About" },
+      { id: 2, url: "about", text: "About me" },
       { id: 3, url: "qualification", text: "Qualification" },
       { id: 4, url: "kranio", text: "Craniosacral therapy" },
       { id: 5, url: "reviews", text: "Reviews" },
@@ -259,7 +259,7 @@ export const texts = {
       },
     ],
     h_qualification: "Kvalifikace",
-    a_qualification_text: "* Členka České kraniosakrální asociace",
+    a_qualification_text: "* členka České kraniosakrální asociace",
     kranio_qualification: {
       description: "Výcvik v kraniosakrální terapii - Radek Neškrabal",
       items: [
