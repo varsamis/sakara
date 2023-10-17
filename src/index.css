@@ -409,6 +409,11 @@ body {
   border-bottom: 24px solid transparent;
 }
 
+.carousel .control-dots .dot {
+  background: #172a3d;
+  opacity: 0.5;
+}
+
 .text-overlay br {
   margin-top: 0.75rem;
 }
