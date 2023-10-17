@@ -19,18 +19,14 @@ const ToTop = () => {
     animateScroll.scrollToTop();
   };
 
-  if (window.innerWidth >= 1000) {
-    return (
-      <div className="totop">
-        {showBackToTop && (
-          <button className="totop-btn" onClick={handleScrollToTop}>
-            <HiChevronDoubleUp />
-          </button>
-        )}
-      </div>
-    );
-  } else {
-    return;
-  }
+  return (
+    <div className="totop">
+      {showBackToTop && (
+        <button className="totop-btn" onClick={handleScrollToTop}>
+          <HiChevronDoubleUp />
+        </button>
+      )}
+    </div>
+  );
 };
 export default ToTop;

@@ -17,7 +17,7 @@ const Reviews = () => {
           showThumbs={false}
           showStatus={false}
           infiniteLoop={true}
-          showArrows={true}
+          showArrows={window.innerWidth <= 1000 ? false : true}
         >
           {texts[selectedLanguage].reviews.map((item, i) => (
             <Review key={i} src={item.src} text={item.text} name={item.name} />
