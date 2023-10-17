@@ -668,6 +668,10 @@ body {
     pointer-events: none;
   }
 
+  .title {
+    text-align: center;
+  }
+
   .about {
     height: unset;
   }
