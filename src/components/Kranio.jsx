@@ -26,9 +26,9 @@ const Kranio = () => {
             <a className="kranio-more-a" href="https://www.kranio.eu/kraniosakralni-terapie/" target="_blank">
               {texts[selectedLanguage].a_kranio_text}
             </a>
-            <div className="kranio-ul">
+            <div className="kranio-explained">
               {texts[selectedLanguage].ul_kranio.map((list, i) => (
-                <div key={i}>
+                <div className="kranio-list" key={i}>
                   <h4 key={i}>{list.title}</h4>
                   <ul>
                     {list.items.map((item, i) => (

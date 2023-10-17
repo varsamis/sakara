@@ -61,8 +61,9 @@ export const texts = {
         ],
       },
       {
-        title: "A few examples of what happens during Craniosacral Therapy (CST)",
+        title: "A few examples of what happens during CST:",
         items: [
+          "The therapist creates such conditions in your body so that your self-healing processes can be started - he releases tension patterns in the subtle movement of the skull bones in relation to each other and to other structures in the body, optimal tissue tension in the body and optimal fluid flow are established, brings your body to a state of deep relaxation, when emotional traumas, energy blocks, etc. can be dissolved. At first glance, it may seem that nothing is happening, but many processes are taking place inside you, of which you may not even be fully aware, but you simply feel that some kind of change has taken place.",
           "Release of tissue tension, fascia, muscles, and joints",
           "Stretching of spinal ligaments",
           "Release and harmonization of organs, diaphragm, and connective tissues",
@@ -224,7 +225,7 @@ export const texts = {
     a_kranio_text: `Pro více informací.`,
     ul_kranio: [
       {
-        title: "Pár příkladů na co je KST vhodná",
+        title: "Pár příkladů na co je KST vhodná:",
         items: [
           "při chronických i akutních bolestech",
           "ulevuje obtížím pohybového aparátu, bolesti zad, kloubů, skolióza apod.",
@@ -248,8 +249,9 @@ export const texts = {
         ],
       },
       {
-        title: "Pár příkladů toho co se děje při KST",
+        title: "Pár příkladů toho co se děje při KST:",
         items: [
+          "terapeut vytváří ve vašem těle takové podmínky, aby mohly být nastartovány vaše samoozdravné procesy – uvolňuje napěťové vzorce v jemném pohybu lebečních kostí vůči sobě i vůči ostatním strukturám v těle, dochází k nastolení optimálního napětí tkání v těle a optimálního proudění tekutin, přivádí vaše tělo do stavu hluboké relaxace, kdy mohou být rozpuštěny emoční traumata, energetické bloky apod. Na první pohled to může vypadat, že se nic neděje, ale uvnitř vás samotných se odehrává mnoho procesů, kterých si ani nemusíte být plně vědomi, není jednoduché to přesně pojmenovat, ale vy jednoduše cítíte, že došlo k jakési změně.",
           "dochází k uvolnění napětí tkání, fascií, svalů a kloubů",
           "k protahování vazů páteře",
           "k uvolnění a harmonizaci orgánů, bránice a pojivových tkání",
