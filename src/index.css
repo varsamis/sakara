@@ -96,9 +96,8 @@ pre {
 .home {
   height: 750px;
   background-image: url("./assets/IMG_2566.jpg");
-
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
 }
@@ -138,6 +137,10 @@ pre {
   color: #eaf2f8;
   margin-bottom: 3rem;
   margin-right: 5rem;
+}
+
+.homeQuote p:nth-child(2) {
+  margin-top: -0.5rem;
 }
 
 .about {
@@ -380,7 +383,6 @@ body {
   width: 60%;
   height: 75%;
   font-size: x-large;
-  font-weight: 400;
 }
 
 .carousel.carousel-slider .control-arrow {
@@ -492,10 +494,6 @@ body {
 
 /* Small Screen */
 @media (max-width: 1000px) {
-  .home {
-    position: unset;
-  }
-
   .navbar {
     justify-content: space-between;
     position: unset;
@@ -539,6 +537,7 @@ body {
 
   .home {
     flex-flow: column;
+    background-position: 75%;
   }
 
   .homeText {
@@ -582,6 +581,7 @@ body {
 
   .address {
     flex-wrap: wrap;
+    font-size: smaller;
   }
 
   .kranio {
@@ -644,7 +644,7 @@ body {
   }
 
   .text-overlay {
-    font-size: 1rem;
+    width: 80%;
   }
 
   .carousel.carousel-slider .control-arrow {
