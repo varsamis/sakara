@@ -24,7 +24,7 @@ const Qualification = () => {
           <div className={moreQualification ? "textVisible" : "text"}>
             <ul>
               <li className="qualification-strong">{texts[selectedLanguage].kranio_qualification.description}</li>
-              <ul>
+              <ul style={{ "margin-bottom": "1rem" }}>
                 {texts[selectedLanguage].kranio_qualification.items.map((item, i) => (
                   <li key={i}>
                     <strong>{item.title}</strong>
@@ -33,14 +33,10 @@ const Qualification = () => {
                   </li>
                 ))}
               </ul>
-              <a
-                className="qualification-more qualification-strong"
-                href="https://www.kranio.eu/sabrina-karavarsami/"
-                target="_blank"
-              >
+              <a className="qualification-strong" href="https://www.kranio.eu/sabrina-karavarsami/" target="_blank">
                 {texts[selectedLanguage].a_qualification_text}
               </a>
-              <li className="qualification-strong">
+              <li style={{ "margin-top": "1rem" }} className="qualification-strong">
                 {texts[selectedLanguage].hypnosystemic_qualification.description}
               </li>
               <ul>

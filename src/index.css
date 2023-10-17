@@ -240,10 +240,6 @@ pre {
   font-size: larger;
 }
 
-.qualification-more {
-  margin: 2rem;
-}
-
 .qualification-footer {
   margin-left: 3rem;
   font-weight: 1000;
@@ -653,6 +649,10 @@ body {
     max-height: none;
     margin: 2rem;
   }
+  .textVisible ul {
+    padding-inline-start: 10px;
+  }
+
   .more-button {
     display: flex;
     font-size: 2rem;
