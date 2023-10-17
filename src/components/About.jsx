@@ -1,5 +1,5 @@
-import img1 from "../assets/Sabrina_01.png";
-import img2 from "../assets/Sabrina_02.png";
+import img1 from "../assets/Sabrina_01.jpg";
+import img2 from "../assets/Sabrina_02.jpg";
 import { Element } from "react-scroll";
 import { texts } from "../data";
 import { useGlobalContext } from "../context";

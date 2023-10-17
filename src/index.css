@@ -72,15 +72,19 @@ pre {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
+  z-index: 999;
+}
+
+.totop-btn {
   font-size: 2rem;
   border: 0px;
   background-color: transparent;
   cursor: pointer;
 }
-.totop a {
+.totop-btn a {
   color: var(--clr-grey-3);
 }
-.totop a:hover {
+.totop-btn a:hover {
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
@@ -91,7 +95,7 @@ pre {
 
 .home {
   height: 750px;
-  background-image: url("./assets/IMG_2566.png");
+  background-image: url("./assets/IMG_2566.jpg");
 
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -228,7 +232,7 @@ pre {
 
 .qualification-background {
   content: "";
-  background-image: url("./assets/P7140370.png");
+  background-image: url("./assets/P7140370.jpg");
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
@@ -285,7 +289,7 @@ body {
 
 .contact-background {
   content: "";
-  background-image: url("./assets/contact.png");
+  background-image: url("./assets/contact.jpg");
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
@@ -400,7 +404,7 @@ body {
 }
 
 .text-overlay br {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 .select-lang p {
@@ -598,15 +602,28 @@ body {
     margin-top: unset;
   }
 
+  .qualification {
+    margin: 0rem;
+  }
+
   .qualification ul {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .qualification-strong {
+    font-weight: 800;
+    font-size: large;
   }
 
   .text {
     max-height: 200px;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    margin: unset;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
   }
   .textVisible {
     max-height: none;

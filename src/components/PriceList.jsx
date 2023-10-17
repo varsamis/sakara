@@ -2,7 +2,6 @@ import { texts } from "../data";
 import { Element } from "react-scroll";
 import { useGlobalContext } from "../context";
 import Title from "./Title";
-import contact_img from "../assets/contact.png";
 
 const PriceList = () => {
   const { selectedLanguage } = useGlobalContext();

@@ -1,8 +1,8 @@
-import reviews_img1 from "./assets/reviews1.png";
-import reviews_img2 from "./assets/reviews2.png";
-import reviews_img3 from "./assets/reviews3.png";
-import reviews_img4 from "./assets/reviews4.png";
-import reviews_img5 from "./assets/reviews5.png";
+import reviews_img1 from "./assets/reviews1.jpg";
+import reviews_img2 from "./assets/reviews2.jpg";
+import reviews_img3 from "./assets/reviews3.jpg";
+import reviews_img4 from "./assets/reviews4.jpg";
+import reviews_img5 from "./assets/reviews5.jpg";
 
 export const texts = {
   common: {
