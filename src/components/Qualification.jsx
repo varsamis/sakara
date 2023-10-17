@@ -12,7 +12,12 @@ const Qualification = () => {
   };
 
   return (
-    <Element name="qualification" className="container parallax qualification-background">
+    <Element
+      name="qualification"
+      className={
+        window.innerWidth <= 1000 ? "container qualification-background" : "container parallax qualification-background"
+      }
+    >
       <div className="qualification-card">
         <Title text={texts[selectedLanguage].h_qualification} />
         <section className="section qualification" id="qualification">
@@ -28,8 +33,11 @@ const Qualification = () => {
                   </li>
                 ))}
               </ul>
-              <a href="https://www.kranio.eu/sabrina-karavarsami/" target="_blank">
-                {" "}
+              <a
+                className="qualification-more qualification-strong"
+                href="https://www.kranio.eu/sabrina-karavarsami/"
+                target="_blank"
+              >
                 {texts[selectedLanguage].a_qualification_text}
               </a>
               <li className="qualification-strong">

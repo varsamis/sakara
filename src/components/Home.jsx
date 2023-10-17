@@ -6,7 +6,7 @@ const Home = () => {
   const { selectedLanguage } = useGlobalContext();
   return (
     <Element name="home" className="contianer">
-      <section className="section home parallax" id="home">
+      <section className={window.innerWidth <= 1000 ? "section home" : "section home parallax"} id="home">
         <div className="homeText">
           <div className="homeName">
             Sabrina <br />

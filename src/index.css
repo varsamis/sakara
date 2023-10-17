@@ -132,14 +132,11 @@ pre {
   font-size: x-large;
   font-weight: 300;
   text-align: center;
-  /* background-color: #35ceed44; */
-  /* height: 10rem; */
   padding: 1rem;
   width: 15rem;
   height: 15rem;
-  border-radius: 50%;
   color: #eaf2f8;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   margin-right: 5rem;
 }
 
@@ -224,9 +221,9 @@ pre {
   bottom: 30rem;
 }
 
-/* .kranio-background h2 {
-  -webkit-text-stroke: 1px white;
-} */
+.kranio-more-a {
+  font-weight: 800;
+}
 
 .qualification-background {
   content: "";
@@ -238,6 +235,10 @@ pre {
 .qualification-strong {
   font-weight: 1000;
   font-size: larger;
+}
+
+.qualification-more {
+  margin: 2rem;
 }
 
 .qualification-footer {

@@ -23,7 +23,7 @@ const Kranio = () => {
                 <p key={i}>{p}</p>
               </article>
             ))}
-            <a href="https://www.kranio.eu/kraniosakralni-terapie/" target="_blank">
+            <a className="kranio-more-a" href="https://www.kranio.eu/kraniosakralni-terapie/" target="_blank">
               {texts[selectedLanguage].a_kranio_text}
             </a>
             <div className="kranio-ul">
