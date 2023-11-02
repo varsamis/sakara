@@ -3,6 +3,7 @@ import reviews_img2 from "./assets/reviews2.jpg";
 import reviews_img3 from "./assets/reviews3.jpg";
 import reviews_img4 from "./assets/reviews4.jpg";
 import reviews_img5 from "./assets/reviews5.jpg";
+import reviews_img6 from "./assets/reviews6.jpg";
 
 export const texts = {
   common: {
@@ -165,14 +166,19 @@ export const texts = {
         src: reviews_img3,
       },
       {
+        text: `Therapies with Sabrina are difficult for me to describe in words. My motivation came from the intention to activate overall healing and also from meeting Sabrina at one seminar. Experiences of action vary. During the first therapies, a kind of "electrical" activation took place in my body,  skin and muscles. Later came a quick sinking into one's own depths and also the disappearance of the acute pain.`,
+        name: `Eva S. - project manager`,
+        src: reviews_img4,
+      },
+      {
         text: `Maybe about me first. I am a person whose head does not stop and is always on the run with the inability to rest. I just can't do it (or actually I couldn't). So I won't lie. Visiting Sabrina was a gift. At the same time, I was a person who takes various forms of relaxation more as something for a vacation, but simply not for everyday life. Since then I have been going regularly and many visits have passed. For me, the visits have a really relaxing and perhaps harmonizing effect. And not only the therapy itself, where one expects it, but also talking with Sabrina has a therapeutic effect.`,
         name: `Michal T. - marketing manager`,
-        src: reviews_img4,
+        src: reviews_img5,
       },
       {
         text: `Sabrina has amazing hands, she understands the body, but also the soul. After each treatment, I leave with a smile from ear to ear, relaxed and with recharged "batteries". Unbelievably, I have found that with regular visits, the treatments have a positive impact on my life (family, relationships, work). I can recommend big time!`,
         name: `Michal L. - energy scheduler`,
-        src: reviews_img5,
+        src: reviews_img6,
       },
     ],
     h_pricelist: "Pricelist",
@@ -353,14 +359,19 @@ export const texts = {
         src: reviews_img3,
       },
       {
+        text: `Terapie se Sabrinou jsou pro mne těžké popsat slovy. Moje motivace vyšla ze záměru aktivovat celkové ozdravení a taky ze setkání se Sabrinou na jednom semináři. Zážitky z působení jsou různorodé. Při prvních terapiích u mě probíhala jakási "elektrická" aktivace v těle, na kůži a ve svalech. Později přišlo rychlé ponoření se do vlastních hlubin a také zmizení akutní bolesti.`,
+        name: `Eva S. - projektová manažerka`,
+        src: reviews_img4,
+      },
+      {
         text: `Možná nejdříve o mně. Jsem člověk, kterému se hlava nezastaví a je pořád v běhu s neschopností odpočívat. Prostě to neumím (respektive neuměl jsem). Takže nebudu lhát. Návštěva u Sabriny byl dárek. Zároveň jsem byl člověk, který bere různé formy relaxu spíše jen jako něco v rámci dovolené, ale prostě ne do běžného života. Od té doby chodím pravidelně a uběhlo už mnoho návštěv. Návštěvy pro mne mají skutečně uvolňující až možná harmonizující účinek. A to nejen samotná terapie, kde to člověk očekává, ale terapeutizující účinek má i povídání se Sabrinou.`,
         name: `Michal T. - marketingový manažer`,
-        src: reviews_img4,
+        src: reviews_img5,
       },
       {
         text: `Sabrina má úžasné ruce, rozumí tělu, ale i duši. Po každém ošetření odcházím s úsměvem od ucha k uchu, uvolněný a s dobitými “baterkami”. Ač neuvěřitelné, zjistil jsem, že při pravidelných návštěvách mají ošetření pozitivní dopad na můj život (rodina, vztahy, práce). Doporučuji všemi deseti!`,
         name: `Michal L. - plánovač v energetice`,
-        src: reviews_img5,
+        src: reviews_img6,
       },
     ],
     h_pricelist: "Ceník",
