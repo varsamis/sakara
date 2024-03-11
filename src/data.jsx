@@ -185,7 +185,7 @@ export const texts = {
     p_pricelist: {
       price: "CST and consultation 90 min. / 1400,-Kč",
       cancelation:
-        "If the appointment is canceled on the day of the agreed reservation, a fee of 50% of the therapy price is charged, with the exception of emergency reasons.",
+        "If the appointment is canceled on the day of the agreed reservation, a fee of 100% of the therapy price is charged, with the exception of emergency reasons.",
       other_option: "In exceptional cases, contact me and we will agree on a price.",
     },
     h_contact: "Contact",
@@ -378,7 +378,7 @@ export const texts = {
     p_pricelist: {
       price: "KST a konzultace 90 min. / 1400,-Kč",
       cancelation:
-        "Při zrušení termínu v den domluvené rezervace je účtován poplatek 50% z ceny terapie, s vyjímkou akutních důvodů.",
+        "Při zrušení termínu v den domluvené rezervace je účtován poplatek 100% z ceny terapie, s vyjímkou akutních důvodů.",
       other_option: "Ve vyjímečných případech mne kontaktujte a na ceně se dohodneme.",
     },
     h_contact: "Kontakt",
